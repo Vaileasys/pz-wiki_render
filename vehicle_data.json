@@ -1,0 +1,946 @@
+{
+    "Base.AmbulanceBurnt": {
+        "mesh": "vehicles/Vehicles_Ambulance_Burnt",
+        "texture": "Vehicles/vehicles_ambulance_burnt"
+    },
+    "Base.CarLightsBulletinSheriff": {
+        "mesh": "vehicles/Vehicles_CarNormalLights",
+        "texture": "Vehicles/vehicle_carlights_bulletinsheriff"
+    },
+    "Base.CarLightsKST": {
+        "mesh": "vehicles/Vehicles_CarNormalLights",
+        "texture": "Vehicles/vehicle_carlights_kst"
+    },
+    "Base.CarLightsLouisvilleCounty": {
+        "mesh": "vehicles/Vehicles_CarNormalLights",
+        "texture": "Vehicles/vehicle_carlights_louisvillecounty"
+    },
+    "Base.CarLightsMuldraughPolice": {
+        "mesh": "vehicles/Vehicles_CarNormalLights",
+        "texture": "Vehicles/vehicle_carlights_muldraughpolice"
+    },
+    "Base.CarLightsPolice": {
+        "mesh": "vehicles/Vehicles_CarNormalLights",
+        "texture": "Vehicles/vehicle_carlights_police"
+    },
+    "Base.CarLightsRanger": {
+        "mesh": "vehicles/Vehicles_CarNormalLights",
+        "texture": "Vehicles/vehicle_carrangershell"
+    },
+    "Base.CarLightsSmashedFront": {
+        "mesh": "vehicles/Vehicles_CarNormalLightsSMASH_Front",
+        "texture": "Vehicles/vehicle_carlights_police"
+    },
+    "Base.CarLightsSmashedLeft": {
+        "mesh": "vehicles/Vehicles_CarNormalLightsSMASH_Left",
+        "texture": "Vehicles/vehicle_carlights_police"
+    },
+    "Base.CarLightsSmashedRear": {
+        "mesh": "vehicles/Vehicles_CarNormalLightsSMASH_Rear",
+        "texture": "Vehicles/vehicle_carlights_police"
+    },
+    "Base.CarLightsSmashedRight": {
+        "mesh": "vehicles/Vehicles_CarNormalLightsSMASH_Right",
+        "texture": "Vehicles/vehicle_carlights_police"
+    },
+    "Base.CarLuxury": {
+        "mesh": "vehicles/Vehicles_LuxuryCar",
+        "texture": "Vehicles/vehicle_luxurycarshell"
+    },
+    "Base.CarLuxurySmashedFront": {
+        "mesh": "vehicles/Vehicles_LuxuryCarSMASH_Front",
+        "texture": "Vehicles/vehicle_luxurycarshell"
+    },
+    "Base.CarLuxurySmashedLeft": {
+        "mesh": "vehicles/Vehicles_LuxuryCarSMASH_Left",
+        "texture": "Vehicles/vehicle_luxurycarshell"
+    },
+    "Base.CarLuxurySmashedRear": {
+        "mesh": "vehicles/Vehicles_LuxuryCarSMASH_Rear",
+        "texture": "Vehicles/vehicle_luxurycarshell"
+    },
+    "Base.CarLuxurySmashedRight": {
+        "mesh": "vehicles/Vehicles_LuxuryCarSMASH_Right",
+        "texture": "Vehicles/vehicle_luxurycarshell"
+    },
+    "Base.CarNormal": {
+        "mesh": "vehicles/Vehicles_CarNormal",
+        "texture": "Vehicles/vehicle_carnormalshell"
+    },
+    "Base.CarNormalBurnt": {
+        "mesh": "vehicles/Vehicles_CarNormal_Burnt",
+        "texture": "Vehicles/vehicles_carnormal_burnt"
+    },
+    "Base.CarNormalSmashedFront": {
+        "mesh": "vehicles/Vehicles_CarNormalSMASH_Front",
+        "texture": "Vehicles/vehicle_carnormalshell"
+    },
+    "Base.CarNormalSmashedLeft": {
+        "mesh": "vehicles/Vehicles_CarNormalSMASH_Left",
+        "texture": "Vehicles/vehicle_carnormalshell"
+    },
+    "Base.CarNormalSmashedRear": {
+        "mesh": "vehicles/Vehicles_CarNormalSMASH_Rear",
+        "texture": "Vehicles/vehicle_carnormalshell"
+    },
+    "Base.CarNormalSmashedRight": {
+        "mesh": "vehicles/Vehicles_CarNormalSMASH_Right",
+        "texture": "Vehicles/vehicle_carnormalshell"
+    },
+    "Base.CarSmall02SmashedFront": {
+        "mesh": "vehicles/Vehicles_SmallCar02CRASH_Front",
+        "texture": "Vehicles/vehicle_SmallCar2shell"
+    },
+    "Base.CarSmall02SmashedLeft": {
+        "mesh": "vehicles/Vehicles_SmallCar02CRASH_Left",
+        "texture": "Vehicles/vehicle_SmallCar2shell"
+    },
+    "Base.CarSmall02SmashedRear": {
+        "mesh": "vehicles/Vehicles_SmallCar02SMASH_Rear",
+        "texture": "Vehicles/vehicle_SmallCar2shell"
+    },
+    "Base.CarSmall02SmashedRight": {
+        "mesh": "vehicles/Vehicles_SmallCar02CRASH_Right",
+        "texture": "Vehicles/vehicle_SmallCar2shell"
+    },
+    "Base.CarSmallSmashedFront": {
+        "mesh": "vehicles/Vehicles_SmallCarSMASH_Front",
+        "texture": "Vehicles/vehicle_smallcarshell"
+    },
+    "Base.CarSmallSmashedLeft": {
+        "mesh": "vehicles/Vehicles_SmallCarCRASH_Left",
+        "texture": "Vehicles/vehicle_smallcarshell"
+    },
+    "Base.CarSmallSmashedRear": {
+        "mesh": "vehicles/Vehicles_SmallCarSMASH_Rear",
+        "texture": "Vehicles/vehicle_smallcarshell"
+    },
+    "Base.CarSmallSmashedRight": {
+        "mesh": "vehicles/Vehicles_SmallCarSMASH_Right",
+        "texture": "Vehicles/vehicle_smallcarshell"
+    },
+    "Base.CarStationWagon": {
+        "mesh": "vehicles/Vehicles_CarStationWagon",
+        "texture": "Vehicles/vehicle_statwagonshell"
+    },
+    "Base.CarStationWagon2": {
+        "mesh": "vehicles/Vehicles_CarStationWagon",
+        "texture": "Vehicles/vehicle_statwagon2shell"
+    },
+    "Base.CarStationWagonSmashedFront": {
+        "mesh": "vehicles/Vehicles_CarStationWagonSMASH_Front",
+        "texture": "Vehicles/vehicle_statwagon2shell"
+    },
+    "Base.CarStationWagonSmashedLeft": {
+        "mesh": "vehicles/Vehicles_CarStationWagonSMASH_Left",
+        "texture": "Vehicles/vehicle_statwagon2shell"
+    },
+    "Base.CarStationWagonSmashedRear": {
+        "mesh": "vehicles/Vehicles_CarStationWagonSMASH_Rear",
+        "texture": "Vehicles/vehicle_statwagon2shell"
+    },
+    "Base.CarStationWagonSmashedRight": {
+        "mesh": "vehicles/Vehicles_CarStationWagonSMASH_Right",
+        "texture": "Vehicles/vehicle_statwagon2shell"
+    },
+    "Base.CarTaxi": {
+        "mesh": "vehicles/Vehicles_CarTaxi",
+        "texture": "Vehicles/vehicle_cartaxishell"
+    },
+    "Base.CarTaxi2": {
+        "mesh": "vehicles/Vehicles_CarTaxi",
+        "texture": "Vehicles/vehicle_cartaxi2shell"
+    },
+    "Base.LuxuryCarBurnt": {
+        "mesh": "vehicles/Vehicles_LuxuryCarBurnt",
+        "texture": "Vehicles/vehicles_luxurycar_burnt"
+    },
+    "Base.ModernCar": {
+        "mesh": "vehicles/Vehicles_ModernCar",
+        "texture": "Vehicles/vehicle_moderncarshell"
+    },
+    "Base.ModernCar02": {
+        "mesh": "vehicles/Vehicles_ModernCar02",
+        "texture": "Vehicles/vehicle_moderncar2shell"
+    },
+    "Base.ModernCar02Burnt": {
+        "mesh": "vehicles/Vehicles_ModernCar02_Burnt",
+        "texture": "Vehicles/vehicles_moderncar02_burnt"
+    },
+    "Base.ModernCar02SmashedFront": {
+        "mesh": "vehicles/Vehicles_ModernCar02SMASH_Front",
+        "texture": "Vehicles/vehicle_moderncar2shell"
+    },
+    "Base.ModernCar02SmashedLeft": {
+        "mesh": "vehicles/Vehicles_ModernCar02SMASH_Left",
+        "texture": "Vehicles/vehicle_moderncar2shell"
+    },
+    "Base.ModernCar02SmashedRear": {
+        "mesh": "vehicles/Vehicles_ModernCar02SMASH_Rear",
+        "texture": "Vehicles/vehicle_moderncar2shell"
+    },
+    "Base.ModernCar02SmashedRight": {
+        "mesh": "vehicles/Vehicles_ModernCar02SMASH_Right",
+        "texture": "Vehicles/vehicle_moderncar2shell"
+    },
+    "Base.ModernCarBurnt": {
+        "mesh": "vehicles/Vehicles_ModernCarBurnt",
+        "texture": "Vehicles/vehicles_moderncar_burnt"
+    },
+    "Base.ModernCarLightsCityLouisvillePD": {
+        "mesh": "vehicles/Vehicles_ModernCarLights",
+        "texture": "Vehicles/vehicle_moderncarlights_citylouisvillepd"
+    },
+    "Base.ModernCarLightsMeadeSheriff": {
+        "mesh": "vehicles/Vehicles_ModernCarLights",
+        "texture": "Vehicles/vehicle_moderncarlights_meadesheriff"
+    },
+    "Base.ModernCarLightsWestPoint": {
+        "mesh": "vehicles/Vehicles_ModernCarLights",
+        "texture": "Vehicles/vehicle_moderncarlights_westpoint"
+    },
+    "Base.ModernCarSmashedFront": {
+        "mesh": "vehicles/Vehicles_ModernCarSMASH_Front",
+        "texture": "Vehicles/vehicle_moderncarshell"
+    },
+    "Base.ModernCarSmashedLeft": {
+        "mesh": "vehicles/Vehicles_ModernCarSMASH_Left",
+        "texture": "Vehicles/vehicle_moderncarshell"
+    },
+    "Base.ModernCarSmashedRear": {
+        "mesh": "vehicles/Vehicles_ModernCarSMASH_Rear",
+        "texture": "Vehicles/vehicle_moderncarshell"
+    },
+    "Base.ModernCarSmashedRight": {
+        "mesh": "vehicles/Vehicles_ModernCarSMASH_Right",
+        "texture": "Vehicles/vehicle_moderncarshell"
+    },
+    "Base.ModernCar_Martin": {
+        "mesh": "vehicles/ModernCarWithDoors_Martin|Vehicles_ModernCar_mesh",
+        "texture": "Vehicles/vehicle_moderncarshell"
+    },
+    "Base.NormalCarBurntPolice": {
+        "mesh": "vehicles/Vehicles_NormalCar_BurntPolice",
+        "texture": "Vehicles/vehicles_normalcar_burntpolice"
+    },
+    "Base.OffRoad": {
+        "mesh": "vehicles/Vehicles_OffRoad",
+        "texture": "Vehicles/vehicle_offroadshell"
+    },
+    "Base.OffRoadBurnt": {
+        "mesh": "vehicles/Vehicles_OffRoadBurnt",
+        "texture": "Vehicles/vehicles_offroad_burnt"
+    },
+    "Base.OffRoadSmashedFront": {
+        "mesh": "vehicles/Vehicles_OffRoadCRASH_Front",
+        "texture": "Vehicles/vehicle_offroadshell"
+    },
+    "Base.OffRoadSmashedLeft": {
+        "mesh": "vehicles/Vehicles_OffRoadCRASH_Left",
+        "texture": "Vehicles/vehicle_offroadshell"
+    },
+    "Base.OffRoadSmashedRear": {
+        "mesh": "vehicles/Vehicles_OffRoadCRASH_Rear",
+        "texture": "Vehicles/vehicle_offroadshell"
+    },
+    "Base.OffRoadSmashedRight": {
+        "mesh": "vehicles/Vehicles_OffRoadCRASH_Right",
+        "texture": "Vehicles/vehicle_offroadshell"
+    },
+    "Base.PickUpTruck": {
+        "mesh": "vehicles/Vehicles_PickUpTruck",
+        "texture": "Vehicles/vehicle_pickupshell"
+    },
+    "Base.PickUpTruckJPLandscaping": {
+        "mesh": "vehicles/Vehicles_PickUpTruck",
+        "texture": "Vehicles/vehicle_pickuptruck_JPLandscapingshell"
+    },
+    "Base.PickUpTruckLightsAirport": {
+        "mesh": "vehicles/Vehicles_PickUpTruckLights",
+        "texture": "Vehicles/vehicle_pickup_airportshell"
+    },
+    "Base.PickUpTruckLightsAirportSecurity": {
+        "mesh": "vehicles/Vehicles_PickUpTruckLights",
+        "texture": "Vehicles/vehicle_pickuptruck_airportsecurityshell"
+    },
+    "Base.PickUpTruckLightsFire": {
+        "mesh": "vehicles/Vehicles_PickUpTruckLights",
+        "texture": "Vehicles/vehicle_pickupfireshell"
+    },
+    "Base.PickUpTruckLightsFossoil": {
+        "mesh": "vehicles/Vehicles_PickUpTruckLights",
+        "texture": "Vehicles/vehicle_pickupfossoilshell"
+    },
+    "Base.PickUpTruckLightsRanger": {
+        "mesh": "vehicles/Vehicles_PickUpTruckLights",
+        "texture": "Vehicles/vehicle_pickuptruck_ranger"
+    },
+    "Base.PickUpTruckLightsSmashedFront": {
+        "mesh": "vehicles/Vehicles_PickUpTruckLightsCRASH_Front",
+        "texture": "Vehicles/vehicle_pickupfireshell"
+    },
+    "Base.PickUpTruckLightsSmashedLeft": {
+        "mesh": "vehicles/Vehicles_PickUpTruckLightsCRASH_Left",
+        "texture": "Vehicles/vehicle_pickupfireshell"
+    },
+    "Base.PickUpTruckLightsSmashedRear": {
+        "mesh": "vehicles/Vehicles_PickUpTruckLightsCRASH_Rear",
+        "texture": "Vehicles/vehicle_pickupfireshell"
+    },
+    "Base.PickUpTruckLightsSmashedRight": {
+        "mesh": "vehicles/Vehicles_PickUpTruckLightsCRASH_Right",
+        "texture": "Vehicles/vehicle_pickupfireshell"
+    },
+    "Base.PickUpTruckMccoy": {
+        "mesh": "vehicles/Vehicles_PickUpTruck",
+        "texture": "Vehicles/vehicle_pickupmccoyshell"
+    },
+    "Base.PickUpTruckSmashedFront": {
+        "mesh": "vehicles/Vehicles_PickUpTruckCRASH_Front",
+        "texture": "Vehicles/vehicle_pickupmccoyshell"
+    },
+    "Base.PickUpTruckSmashedLeft": {
+        "mesh": "vehicles/Vehicles_PickUpTruckCRASH_Left",
+        "texture": "Vehicles/vehicle_pickupmccoyshell"
+    },
+    "Base.PickUpTruckSmashedRear": {
+        "mesh": "vehicles/Vehicles_PickUpTruckCRASH_Rear",
+        "texture": "Vehicles/vehicle_pickupmccoyshell"
+    },
+    "Base.PickUpTruckSmashedRight": {
+        "mesh": "vehicles/Vehicles_PickUpTruckCRASH_Right",
+        "texture": "Vehicles/vehicle_pickupmccoyshell"
+    },
+    "Base.PickUpTruck_Camo": {
+        "mesh": "vehicles/Vehicles_PickUpTruck",
+        "texture": "Vehicles/vehicle_pickupshell_camo"
+    },
+    "Base.PickUpVan": {
+        "mesh": "vehicles/Vehicles_PickUpVan",
+        "texture": "Vehicles/vehicle_pickupshell"
+    },
+    "Base.PickUpVanBrickingIt": {
+        "mesh": "vehicles/Vehicles_PickUpVan",
+        "texture": "Vehicles/vehicle_pickuptruck_brickingitshell"
+    },
+    "Base.PickUpVanBuilder": {
+        "mesh": "vehicles/Vehicles_PickUpVan",
+        "texture": "Vehicles/vehicle_pickuptruck_marchridgeconstructionshell"
+    },
+    "Base.PickUpVanBurnt": {
+        "mesh": "vehicles/Vehicles_PickUpVanBurnt",
+        "texture": "Vehicles/vehicles_pickupvanburnt"
+    },
+    "Base.PickUpVanCallowayLandscaping": {
+        "mesh": "vehicles/Vehicles_PickUpVan",
+        "texture": "Vehicles/vehicle_pickuptruck_callowaylandscapingshell"
+    },
+    "Base.PickUpVanHeltonMetalWorking": {
+        "mesh": "vehicles/Vehicles_PickUpVan",
+        "texture": "Vehicles/vehicle_pickuptruck_heltonmetalworkingshell"
+    },
+    "Base.PickUpVanKimbleKonstruction": {
+        "mesh": "vehicles/Vehicles_PickUpVan",
+        "texture": "Vehicles/vehicle_pickuptruck_kimblekonstructionshell"
+    },
+    "Base.PickUpVanLightsBurnt": {
+        "mesh": "vehicles/Vehicles_PickUpVanLightsBurnt",
+        "texture": "Vehicles/vehicles_pickupvanlightsburnt"
+    },
+    "Base.PickUpVanLightsCarpenter": {
+        "mesh": "vehicles/Vehicles_PickUpVanLights",
+        "texture": "Vehicles/vehicle_pickuptrucklights_kentuckylumbershell"
+    },
+    "Base.PickUpVanLightsFire": {
+        "mesh": "vehicles/Vehicles_PickUpVanLights",
+        "texture": "Vehicles/vehicle_pickupfireshell"
+    },
+    "Base.PickUpVanLightsFossoil": {
+        "mesh": "vehicles/Vehicles_PickUpVanLights",
+        "texture": "Vehicles/vehicle_pickupfossoilshell"
+    },
+    "Base.PickUpVanLightsKentuckyLumber": {
+        "mesh": "vehicles/Vehicles_PickUpVanLights",
+        "texture": "Vehicles/vehicle_pickuptrucklights_kentuckylumbershell"
+    },
+    "Base.PickUpVanLightsLouisvilleCounty": {
+        "mesh": "vehicles/Vehicles_PickUpVanLights",
+        "texture": "Vehicles/vehicle_pickuptruck_louisvillecounty"
+    },
+    "Base.PickUpVanLightsPolice": {
+        "mesh": "vehicles/Vehicles_PickUpVanLights",
+        "texture": "Vehicles/vehicle_pickuppoliceshell"
+    },
+    "Base.PickUpVanLightsRanger": {
+        "mesh": "vehicles/Vehicles_PickUpVanLights",
+        "texture": "Vehicles/vehicle_pickuptruck_ranger"
+    },
+    "Base.PickUpVanLightsSmashedFront": {
+        "mesh": "vehicles/Vehicles_PickUpVanLightsCRASH_Front",
+        "texture": "Vehicles/vehicle_pickuppoliceshell"
+    },
+    "Base.PickUpVanLightsSmashedLeft": {
+        "mesh": "vehicles/Vehicles_PickUpVanLightsCRASH_Left",
+        "texture": "Vehicles/vehicle_pickuppoliceshell"
+    },
+    "Base.PickUpVanLightsSmashedRear": {
+        "mesh": "vehicles/Vehicles_PickUpVanLightsCRASH_Rear",
+        "texture": "Vehicles/vehicle_pickuppoliceshell"
+    },
+    "Base.PickUpVanLightsSmashedRight": {
+        "mesh": "vehicles/Vehicles_PickUpVanLightsCRASH_Right",
+        "texture": "Vehicles/vehicle_pickuppoliceshell"
+    },
+    "Base.PickUpVanLightsStatePolice": {
+        "mesh": "vehicles/Vehicles_PickUpVanLights",
+        "texture": "Vehicles/vehicle_pickuptruck_statepolice"
+    },
+    "Base.PickUpVanMarchRidgeConstruction": {
+        "mesh": "vehicles/Vehicles_PickUpVan",
+        "texture": "Vehicles/vehicle_pickuptruck_marchridgeconstructionshell"
+    },
+    "Base.PickUpVanMccoy": {
+        "mesh": "vehicles/Vehicles_PickUpVan",
+        "texture": "Vehicles/vehicle_pickupmccoyshell"
+    },
+    "Base.PickUpVanMetalworker": {
+        "mesh": "vehicles/Vehicles_PickUpVan",
+        "texture": "Vehicles/vehicle_pickuptruck_heltonmetalworkingshell"
+    },
+    "Base.PickUpVanSmashedFront": {
+        "mesh": "vehicles/Vehicles_PickUpVanCRASH_Front",
+        "texture": "Vehicles/vehicle_pickupmccoyshell"
+    },
+    "Base.PickUpVanSmashedLeft": {
+        "mesh": "vehicles/Vehicles_PickUpVanCRASH_Left",
+        "texture": "Vehicles/vehicle_pickupmccoyshell"
+    },
+    "Base.PickUpVanSmashedRear": {
+        "mesh": "vehicles/Vehicles_PickUpVanCRASH_Rear",
+        "texture": "Vehicles/vehicle_pickupmccoyshell"
+    },
+    "Base.PickUpVanSmashedRight": {
+        "mesh": "vehicles/Vehicles_PickUpVanCRASH_Right",
+        "texture": "Vehicles/vehicle_pickupmccoyshell"
+    },
+    "Base.PickUpVanWeldingbyCamille": {
+        "mesh": "vehicles/Vehicles_PickUpVan",
+        "texture": "Vehicles/vehicle_pickuptruck_weldingbycamilleshell"
+    },
+    "Base.PickUpVanYingsWood": {
+        "mesh": "vehicles/Vehicles_PickUpVan",
+        "texture": "Vehicles/vehicle_pickuptruck_yingswoodshell"
+    },
+    "Base.PickUpVan_Camo": {
+        "mesh": "vehicles/Vehicles_PickUpVan",
+        "texture": "Vehicles/vehicle_pickupshell_camo"
+    },
+    "Base.PickupBurnt": {
+        "mesh": "vehicles/Vehicles_PickUpBurnt",
+        "texture": "Vehicles/vehicles_pickupburnt"
+    },
+    "Base.PickupSpecialBurnt": {
+        "mesh": "vehicles/Vehicles_PickUpBurnt",
+        "texture": "Vehicles/vehicles_pickupburnt_ranger"
+    },
+    "Base.SUV": {
+        "mesh": "vehicles/Vehicles_SUV",
+        "texture": "Vehicles/vehicle_suvshell"
+    },
+    "Base.SUVBurnt": {
+        "mesh": "vehicles/Vehicles_SUV_Burnt",
+        "texture": "Vehicles/vehicles_suv_burnt"
+    },
+    "Base.SUVSmashedFront": {
+        "mesh": "vehicles/Vehicles_SUVCRASH_Front",
+        "texture": "Vehicles/vehicle_suvshell"
+    },
+    "Base.SUVSmashedLeft": {
+        "mesh": "vehicles/Vehicles_SUVCRASH_Left",
+        "texture": "Vehicles/vehicle_suvshell"
+    },
+    "Base.SUVSmashedRear": {
+        "mesh": "vehicles/Vehicles_SUVCRASH_Rear",
+        "texture": "Vehicles/vehicle_suvshell"
+    },
+    "Base.SUVSmashedRight": {
+        "mesh": "vehicles/Vehicles_SUVCRASH_Right",
+        "texture": "Vehicles/vehicle_suvshell"
+    },
+    "Base.SmallCar": {
+        "mesh": "vehicles/Vehicles_SmallCar",
+        "texture": "Vehicles/vehicle_smallcarshell"
+    },
+    "Base.SmallCar02": {
+        "mesh": "vehicles/Vehicles_SmallCar02",
+        "texture": "Vehicles/vehicle_smallcar2shell"
+    },
+    "Base.SmallCar02Burnt": {
+        "mesh": "vehicles/Vehicles_SmallCar02Burnt",
+        "texture": "Vehicles/vehicles_smallcar02_burnt"
+    },
+    "Base.SmallCarBurnt": {
+        "mesh": "vehicles/Vehicles_SmallCar_Burnt",
+        "texture": "Vehicles/vehicles_smallcar_burnt"
+    },
+    "Base.SportsCar": {
+        "mesh": "vehicles/Vehicles_SportsCar",
+        "texture": "Vehicles/vehicle_sportscarshell"
+    },
+    "Base.SportsCarBurnt": {
+        "mesh": "vehicles/Vehicles_SportsCar_Burnt",
+        "texture": "Vehicles/vehicles_sportscar_burnt"
+    },
+    "Base.SportsCar_ez": {
+        "mesh": "vehicles/SportsCarWithDoors|body_mesh",
+        "texture": "Vehicles/vehicle_sportscarshell"
+    },
+    "Base.StepVan": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvanshell"
+    },
+    "Base.StepVanAirportCatering": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_airport_cateringshell"
+    },
+    "Base.StepVanMail": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvanmailshell"
+    },
+    "Base.StepVanMailSmashedFront": {
+        "mesh": "vehicles/Vehicle_StepVanSMASH_Front",
+        "texture": "Vehicles/vehicle_stepvanmailshell"
+    },
+    "Base.StepVanMailSmashedLeft": {
+        "mesh": "vehicles/Vehicle_StepVanSMASH_Left",
+        "texture": "Vehicles/vehicle_stepvanmailshell"
+    },
+    "Base.StepVanMailSmashedRear": {
+        "mesh": "vehicles/Vehicle_StepVanCRASH_Rear",
+        "texture": "Vehicles/vehicle_stepvanmailshell"
+    },
+    "Base.StepVanMailSmashedRight": {
+        "mesh": "vehicles/Vehicle_StepVanCRASH_Right",
+        "texture": "Vehicles/vehicle_stepvanmailshell"
+    },
+    "Base.StepVanSmashedFront": {
+        "mesh": "vehicles/Vehicle_StepVanSMASH_Front",
+        "texture": "Vehicles/vehicle_stepvanshell"
+    },
+    "Base.StepVanSmashedLeft": {
+        "mesh": "vehicles/Vehicle_StepVanSMASH_Left",
+        "texture": "Vehicles/vehicle_stepvanshell"
+    },
+    "Base.StepVanSmashedRear": {
+        "mesh": "vehicles/Vehicle_StepVanCRASH_Rear",
+        "texture": "Vehicles/vehicle_stepvanshell"
+    },
+    "Base.StepVanSmashedRight": {
+        "mesh": "vehicles/Vehicle_StepVanCRASH_Right",
+        "texture": "Vehicles/vehicle_stepvanshell"
+    },
+    "Base.StepVan_Blacksmith": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/StepVan_Blacksmith_4"
+    },
+    "Base.StepVan_Butchers": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/StepVan_Butchers_2"
+    },
+    "Base.StepVan_Cereal": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicles_stepvan_sunballz_shell"
+    },
+    "Base.StepVan_Citr8": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_citr8"
+    },
+    "Base.StepVan_CompleteRepairShop": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_completerepairshopshell"
+    },
+    "Base.StepVan_Florist": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/StepVan_Florist_2"
+    },
+    "Base.StepVan_Genuine_Beer": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_beergenuine_shell"
+    },
+    "Base.StepVan_Glass": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/StepVan_GlassWorks_1"
+    },
+    "Base.StepVan_Heralds": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_kentuckyheraldshell"
+    },
+    "Base.StepVan_HuangsLaundry": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_huangslaundryshell"
+    },
+    "Base.StepVan_Jorgensen": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_jorgensenshell"
+    },
+    "Base.StepVan_LouisvilleMotorShop": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_louisvillemotorshopshell"
+    },
+    "Base.StepVan_LouisvilleSWAT": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_louisvilleswat"
+    },
+    "Base.StepVan_MarineBites": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvanshell_marinebites"
+    },
+    "Base.StepVan_Masonry": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/StepVan_Masonry_3"
+    },
+    "Base.StepVan_Mechanic": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_louisvillemotorshopshell"
+    },
+    "Base.StepVan_MobileLibrary": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/StepVan_Library_2"
+    },
+    "Base.StepVan_Plonkies": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_plonkies"
+    },
+    "Base.StepVan_RandisPlants": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_randisplantsshell"
+    },
+    "Base.StepVan_Scarlet": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_scarletdist"
+    },
+    "Base.StepVan_SmartKut": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_tailoring_1"
+    },
+    "Base.StepVan_SouthEasternHosp": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_southeasternhospshell"
+    },
+    "Base.StepVan_SouthEasternPaint": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_southeasternpaintshell"
+    },
+    "Base.StepVan_USL": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvan_uslshell"
+    },
+    "Base.StepVan_Zippee": {
+        "mesh": "vehicles/Vehicle_StepVan",
+        "texture": "Vehicles/vehicle_stepvanshell_zippee"
+    },
+    "Base.TaxiBurnt": {
+        "mesh": "vehicles/Vehicles_CarNormal_Burnt",
+        "texture": "Vehicles/vehicles_taxi_burnt"
+    },
+    "Base.Trailer": {
+        "mesh": "vehicles/vehicle_utilitytrailer",
+        "texture": "Vehicles/vehicle_utilitytrailershell"
+    },
+    "Base.TrailerAdvert": {
+        "mesh": "vehicles/vehicle_adverttrailer",
+        "texture": "Vehicles/AdvertTrailer_Western2"
+    },
+    "Base.TrailerCover": {
+        "mesh": "vehicles/vehicle_utilitytrailercover",
+        "texture": "Vehicles/vehicle_utilitytrailershell"
+    },
+    "Base.Trailer_Horsebox": {
+        "mesh": "vehicles/vehicle_horsebox",
+        "texture": "Vehicles/HorseBoxSHELL"
+    },
+    "Base.Trailer_Livestock": {
+        "mesh": "vehicles/vehicle_livestocktrailer",
+        "texture": "Vehicles/LivestockTrailer"
+    },
+    "Base.Van": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanshell"
+    },
+    "Base.VanAmbulance": {
+        "mesh": "vehicles/Vehicles_VanAmbulance",
+        "texture": "Vehicles/vehicle_vanambulanceshell"
+    },
+    "Base.VanBeckmans": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanbeckmansshell"
+    },
+    "Base.VanBrewsterHarbin": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanbrewsterharbinshell"
+    },
+    "Base.VanBuilder": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vankerrhomesshell"
+    },
+    "Base.VanBurnt": {
+        "mesh": "vehicles/Vehicles_Van_Burnt",
+        "texture": "Vehicles/vehicles_van_burnt"
+    },
+    "Base.VanCarpenter": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanrosewoodworkingshell"
+    },
+    "Base.VanCoastToCoast": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vancoasttocoastshell"
+    },
+    "Base.VanDeerValley": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vandeervalleyshell"
+    },
+    "Base.VanFossoil": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanfossoilshell"
+    },
+    "Base.VanGardenGods": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vangardengodsshell"
+    },
+    "Base.VanGardener": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vantreybainesshell"
+    },
+    "Base.VanGreenes": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vangreenesshell"
+    },
+    "Base.VanJohnMcCoy": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanjohnmccoyshell"
+    },
+    "Base.VanJonesFabrication": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanjonesfabshell"
+    },
+    "Base.VanKerrHomes": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vankerrhomesshell"
+    },
+    "Base.VanKnobCreekGas": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanknobcreekgasshell"
+    },
+    "Base.VanKnoxCom": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanknoxtelecomshell"
+    },
+    "Base.VanKorshunovs": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vankorshunovscarcentershell"
+    },
+    "Base.VanLouisvilleLandscaping": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanlouisvillelandscapingshell"
+    },
+    "Base.VanMail": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanpostalshell"
+    },
+    "Base.VanMccoy": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanmccoyshell"
+    },
+    "Base.VanMechanic": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanplattautoshell"
+    },
+    "Base.VanMeltingPointMetal": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanmeltingpointmetalshell"
+    },
+    "Base.VanMetalheads": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanmetalheadsshell"
+    },
+    "Base.VanMetalworker": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanschwabsheetmetalshell"
+    },
+    "Base.VanMicheles": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanmichelesshell"
+    },
+    "Base.VanMobileMechanics": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanmobilemechanicshell"
+    },
+    "Base.VanMooreMechanics": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanmooremechanicsshell"
+    },
+    "Base.VanOldMill": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanoldmillshell"
+    },
+    "Base.VanOvoFarm": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanovofarmshell"
+    },
+    "Base.VanPennSHam": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanpennshamshell"
+    },
+    "Base.VanPlattAuto": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanplattautoshell"
+    },
+    "Base.VanPluggedInElectrics": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanpluggedinelectricsshell"
+    },
+    "Base.VanRadio": {
+        "mesh": "vehicles/Vehicles_VanRadio",
+        "texture": "Vehicles/vehicle_vanradio_lbmwshell"
+    },
+    "Base.VanRadioBurnt": {
+        "mesh": "vehicles/Vehicles_VanRadio_Burnt",
+        "texture": "Vehicles/vehicles_vanradio_burnt"
+    },
+    "Base.VanRadio_3N": {
+        "mesh": "vehicles/Vehicles_VanRadio",
+        "texture": "Vehicles/vehicle_vanradio_3nshell"
+    },
+    "Base.VanRiversideFabrication": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanriversidefabshell"
+    },
+    "Base.VanRosewoodworking": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanrosewoodworkingshell"
+    },
+    "Base.VanSchwabSheetMetal": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanschwabsheetmetalshell"
+    },
+    "Base.VanSeats": {
+        "mesh": "vehicles/Vehicles_VanSeats",
+        "texture": "Vehicles/vehicle_vanseatsshell"
+    },
+    "Base.VanSeatsAirportShuttle": {
+        "mesh": "vehicles/Vehicles_VanSeats",
+        "texture": "Vehicles/vehicle_vanseats_airportshell"
+    },
+    "Base.VanSeatsBurnt": {
+        "mesh": "vehicles/Vehicles_VanSeats_Burnt",
+        "texture": "Vehicles/vehicles_vanseats_burnt"
+    },
+    "Base.VanSeats_Creature": {
+        "mesh": "vehicles/Vehicles_VanSeats",
+        "texture": "Vehicles/vehicle_vanseats_mural_creature_shell"
+    },
+    "Base.VanSeats_LadyDelighter": {
+        "mesh": "vehicles/Vehicles_VanSeats",
+        "texture": "Vehicles/vehicle_vanseats_mural_ladydelighter_shell"
+    },
+    "Base.VanSeats_Mural": {
+        "mesh": "vehicles/Vehicles_VanSeats",
+        "texture": "Vehicles/vehicle_vanseats_mural_valkyrie_shell"
+    },
+    "Base.VanSeats_Prison": {
+        "mesh": "vehicles/Vehicles_VanSeats",
+        "texture": "Vehicles/vehicle_vanseats_prisonshell"
+    },
+    "Base.VanSeats_Space": {
+        "mesh": "vehicles/Vehicles_VanSeats",
+        "texture": "Vehicles/vehicle_vanseats_mural_space_shell"
+    },
+    "Base.VanSeats_Trippy": {
+        "mesh": "vehicles/Vehicles_VanSeats",
+        "texture": "Vehicles/vehicle_vanseats_mural_trippy_shell"
+    },
+    "Base.VanSeats_Valkyrie": {
+        "mesh": "vehicles/Vehicles_VanSeats",
+        "texture": "Vehicles/vehicle_vanseats_mural_valkyrie_shell"
+    },
+    "Base.VanSpiffo": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanspiffoshell"
+    },
+    "Base.VanTreyBaines": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vantreybainesshell"
+    },
+    "Base.VanUncloggers": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanuncloggersshell"
+    },
+    "Base.VanUtility": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanknoxtelecomshell"
+    },
+    "Base.VanWPCarpentry": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanwpcarpentryshell"
+    },
+    "Base.Van_Blacksmith": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/Van_Blacksmith_3"
+    },
+    "Base.Van_BugWipers": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanbugwipersshell"
+    },
+    "Base.Van_Charlemange_Beer": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_van_beer_shell"
+    },
+    "Base.Van_CraftSupplies": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/Van_Craft_01"
+    },
+    "Base.Van_Glass": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/Van_GlassWorks_2"
+    },
+    "Base.Van_HeritageTailors": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_van_tailoring_2"
+    },
+    "Base.Van_KnoxDisti": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_van_knoxdistilleryshell"
+    },
+    "Base.Van_Leather": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/Van_Leatherwork_2"
+    },
+    "Base.Van_LectroMax": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_van_lectromaxshell"
+    },
+    "Base.Van_Locksmith": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/Van_Locksmith_2"
+    },
+    "Base.Van_Masonry": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/Van_Masonry_2"
+    },
+    "Base.Van_MassGenFac": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_van_massgenfacvoshell"
+    },
+    "Base.Van_Perfick_Potato": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_van_chips_shell"
+    },
+    "Base.Van_Transit": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_van_ky_transitshell"
+    },
+    "Base.Van_VoltMojo": {
+        "mesh": "vehicles/Vehicles_Van",
+        "texture": "Vehicles/vehicle_vanvoltmojoshell"
+    }
+}
