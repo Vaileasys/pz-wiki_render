@@ -15,19 +15,19 @@ except:
 ## ------------------------- Config (default values) ------------------------- ##
 VEHICLE_DATA_PATH = os.path.join(script_dir, "vehicle_data.json") # Path of the JSON file to read vehicle mesh and texture paths
 MESH_PATH = "C:/Program Files (x86)/Steam/steamapps/common/ProjectZomboid/media/models_X" # Base path of the FBX files
-WHEEL_MESH_PATH = os.path.join(MESH_PATH, "vehicles", "Wheel.FBX")
+WHEEL_MESH_PATH = os.path.join(MESH_PATH, "WorldItems", "Wheel.FBX")
 TEXTURE_PATH = "C:/Program Files (x86)/Steam/steamapps/common/ProjectZomboid/media/textures" # Base path of the textures
 WHEEL_TEXTURE_PATH = os.path.join(TEXTURE_PATH, "Vehicles", "vehicle_wheel.png")
 OUTPUT_PATH = os.path.join(script_dir, "output")
 IS_SINGLE = True # True will only render 1 angle
-RENDER_VEHICLES = [] # Assign a list of vehicles to render. Leave empty to render all vehicles.
-RENDER_ENGINE = "BLENDER_EEVEE" # BLENDER_EEVEE (quick) or CYCLES (slow)
+VEHICLES = [] # Assign a list of vehicles to render. Leave empty to render all vehicles.
+RENDER_ENGINE = "CYCLES" # BLENDER_EEVEE (quick) or CYCLES (slow)
 DIMENSION_X = 800 # Render dimension X
 DIMENSION_Y = 800 # Render dimension Y
 
 # ------------------------- CLI Argument Parsing ------------------------- #
 def cli_parsing():
-    global IS_SINGLE, RENDER_ENGINE, DIMENSION_X, DIMENSION_Y
+    global IS_SINGLE, RENDER_ENGINE, DIMENSION_X, DIMENSION_Y, VEHICLES
 
     args = sys.argv
     if "--" in args:
@@ -50,6 +50,9 @@ def cli_parsing():
             DIMENSION_X = int(arg.split("=", 1)[1])
         elif arg.startswith("dim_y="):
             DIMENSION_Y = int(arg.split("=", 1)[1])
+        elif arg.startswith("vehicles="):
+            vehicles = arg.split("=", 1)[1]
+            VEHICLES.extend(v.strip() for v in vehicles.split(",") if v.strip())
 
 ## ------------------------- Scene cleanup ------------------------- ##
 def clear_scene():
@@ -311,6 +314,7 @@ def render_vehicle(id_type, model_rel, texture_rel):
     scene_render.resolution_y = DIMENSION_Y
     scene_render.engine = RENDER_ENGINE
     scene_render.image_settings.file_format = 'PNG'
+    scene_render.film_transparent = True
 
     # Camera position
     radius = 12
@@ -346,8 +350,10 @@ def render_vehicle(id_type, model_rel, texture_rel):
         scene_render.filepath = render_path
 
         bpy.ops.render.render(write_still=True)
-
-        print(f"Render {i}/{count} saved: {filename}")
+        if IS_SINGLE:
+            print(f"[{id_type}] Render saved: {filename}")
+        else:
+            print(f"[{id_type}] Render {i+1}/{count} saved: {filename}")
 
 ## ------------------------- Process vehicles ------------------------- ##
 def process_vehicles(vehicles_list=None):
@@ -371,4 +377,4 @@ def process_vehicles(vehicles_list=None):
 
 ## ------------------------- Initialise ------------------------- ##
 cli_parsing()
-process_vehicles(vehicles_list=RENDER_VEHICLES)
+process_vehicles(vehicles_list=VEHICLES)
