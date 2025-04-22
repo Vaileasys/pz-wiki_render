@@ -13,7 +13,7 @@ This script automates rendering Project Zomboid vehicle models using Blender.
 
 ## Usage in Blender (Text Editor)
 1. Open Blender.
-2. Paste the script into the **Text Editor** in **Scripting**.
+2. Paste the `vehicle_render.py` script into the **Text Editor** in **Scripting**.
 3. Adjust settings in the config section if needed:
    - `IS_SINGLE = True` - render a single angle. `False` will render each vehicle from 8 different angles.
    - `VEHICLES = ["Base.CarLuxury"]` - only render selected vehicles.
