@@ -3,6 +3,8 @@ import os
 import math
 import json
 import sys
+import random
+import colorsys
 
 ## ------------------------- Set up script directory ------------------------- ##
 try:
@@ -252,7 +254,35 @@ def attach_wheels(id_type):
             print(f"Failed to import or assign {wheel_name} wheel: {e}")
 
 ## ------------------------- Texture assignment ------------------------- ##
-def apply_texture(texture_path):
+def generate_vehicle_colour() -> tuple[float, float, float, float]:
+    """Mimics game's doVehicleColor() logic in BaseVehicle.class, returning rgba."""
+    roll = random.randint(0, 99)
+
+    if roll < 20:
+        hue = random.uniform(0.0, 0.03)
+        sat = random.uniform(0.85, 1.0)
+        val = random.uniform(0.55, 0.85)
+    elif roll < 32:
+        hue = random.uniform(0.55, 0.61)
+        sat = random.uniform(0.85, 1.0)
+        val = random.uniform(0.65, 0.75)
+    elif roll < 67:
+        hue = 0.15
+        sat = random.uniform(0.0, 0.1)
+        val = random.uniform(0.7, 0.8)
+    elif roll < 89:
+        hue = random.uniform(0.0, 1.0)
+        sat = random.uniform(0.0, 0.1)
+        val = random.uniform(0.1, 0.25)
+    else:
+        hue = random.uniform(0.0, 1.0)
+        sat = random.uniform(0.6, 0.75)
+        val = random.uniform(0.3, 0.7)
+
+    r, g, b = colorsys.hsv_to_rgb(hue, sat, val)
+    return round(r, 4), round(g, 4), round(b, 4), 1.0
+
+def apply_texture(texture_path, id_type):
     image_path = os.path.join(TEXTURE_PATH, texture_path.replace("/", os.sep) + ".png")
     image = bpy.data.images.load(image_path)
 
@@ -284,7 +314,22 @@ def apply_texture(texture_path):
         bsdf.location = (0, 0)
         output.location = (400, 0)
 
-        links.new(tex.outputs["Color"], bsdf.inputs["Base Color"])
+        # Create a base colour node (fallback for transparent texture)
+        base_color = nodes.new("ShaderNodeRGB")
+        vehicle_colour = generate_vehicle_colour()
+        print(f"[{id_type}] Generated colour: {vehicle_colour}")
+        base_color.outputs[0].default_value = vehicle_colour
+
+        # Mix base colour with texture
+        mix = nodes.new("ShaderNodeMixRGB")
+        mix.blend_type = 'MIX'
+        mix.inputs['Fac'].default_value = 1.0
+        links.new(tex.outputs["Alpha"], mix.inputs["Fac"])
+        links.new(base_color.outputs["Color"], mix.inputs[1]) # Base underneath
+        links.new(tex.outputs["Color"], mix.inputs[2]) # Texture on top
+
+        # Connect mix output to BSDF
+        links.new(mix.outputs["Color"], bsdf.inputs["Base Color"])
         links.new(bsdf.outputs["BSDF"], output.inputs["Surface"])
 
         bpy.ops.object.shade_smooth()
@@ -296,7 +341,7 @@ def render_vehicle(id_type, model_rel, texture_rel):
 
     try:
         import_model(model_rel)
-        apply_texture(texture_rel)
+        apply_texture(texture_rel, id_type)
         attach_wheels(id_type)
     except Exception as e:
         print(f"Failed to import or apply texture: {id_type}\n{e}")
