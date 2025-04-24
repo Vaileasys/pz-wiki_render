@@ -15,15 +15,16 @@ except:
     script_dir = os.getcwd()
 
 ## ------------------------- Config (default values) ------------------------- ##
+MEDIA_PATH = "C:/Program Files (x86)/Steam/steamapps/common/ProjectZomboid/media"
 VEHICLE_DATA_PATH = os.path.join(script_dir, "vehicle_data.json") # Path of the JSON file to read vehicle mesh and texture paths
-MESH_PATH = "C:/Program Files (x86)/Steam/steamapps/common/ProjectZomboid/media/models_X" # Base path of the FBX files
-WHEEL_MESH_PATH = os.path.join(MESH_PATH, "WorldItems", "Wheel.FBX")
-TEXTURE_PATH = "C:/Program Files (x86)/Steam/steamapps/common/ProjectZomboid/media/textures" # Base path of the textures
-WHEEL_TEXTURE_PATH = os.path.join(TEXTURE_PATH, "Vehicles", "vehicle_wheel.png")
+MESH_PATH = os.path.join(MEDIA_PATH, "models_X") # Base path of the FBX files
+WHEEL_MESH_PATH = os.path.join(MESH_PATH, "WorldItems", "Wheel.FBX") # Path of the wheel mesh
+TEXTURE_PATH = os.path.join(MEDIA_PATH, "textures") # Base path of the textures
+WHEEL_TEXTURE_PATH = os.path.join(TEXTURE_PATH, "Vehicles", "vehicle_wheel.png") # Path of the wheel texture
 OUTPUT_PATH = os.path.join(script_dir, "output")
 IS_SINGLE = True # True will only render 1 angle
 VEHICLES = [] # Assign a list of vehicles to render. Leave empty to render all vehicles.
-RENDER_ENGINE = "CYCLES" # BLENDER_EEVEE (quick) or CYCLES (slow)
+RENDER_ENGINE = "CYCLES" # BLENDER_EEVEE (fast) or CYCLES (slow)
 DIMENSION_X = 800 # Render dimension X
 DIMENSION_Y = 800 # Render dimension Y
 
