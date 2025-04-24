@@ -1,946 +1,6227 @@
 {
     "Base.AmbulanceBurnt": {
         "mesh": "vehicles/Vehicles_Ambulance_Burnt",
-        "texture": "Vehicles/vehicles_ambulance_burnt"
+        "texture": "Vehicles/vehicles_ambulance_burnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.CarLightsBulletinSheriff": {
         "mesh": "vehicles/Vehicles_CarNormalLights",
-        "texture": "Vehicles/vehicle_carlights_bulletinsheriff"
+        "texture": "Vehicles/vehicle_carlights_bulletinsheriff",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarLightsKST": {
         "mesh": "vehicles/Vehicles_CarNormalLights",
-        "texture": "Vehicles/vehicle_carlights_kst"
+        "texture": "Vehicles/vehicle_carlights_kst",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarLightsLouisvilleCounty": {
         "mesh": "vehicles/Vehicles_CarNormalLights",
-        "texture": "Vehicles/vehicle_carlights_louisvillecounty"
+        "texture": "Vehicles/vehicle_carlights_louisvillecounty",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarLightsMuldraughPolice": {
         "mesh": "vehicles/Vehicles_CarNormalLights",
-        "texture": "Vehicles/vehicle_carlights_muldraughpolice"
+        "texture": "Vehicles/vehicle_carlights_muldraughpolice",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarLightsPolice": {
         "mesh": "vehicles/Vehicles_CarNormalLights",
-        "texture": "Vehicles/vehicle_carlights_police"
+        "texture": "Vehicles/vehicle_carlights_police",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarLightsRanger": {
         "mesh": "vehicles/Vehicles_CarNormalLights",
-        "texture": "Vehicles/vehicle_carrangershell"
+        "texture": "Vehicles/vehicle_carrangershell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarLightsSmashedFront": {
         "mesh": "vehicles/Vehicles_CarNormalLightsSMASH_Front",
-        "texture": "Vehicles/vehicle_carlights_police"
+        "texture": "Vehicles/vehicle_carlights_police",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarLightsSmashedLeft": {
         "mesh": "vehicles/Vehicles_CarNormalLightsSMASH_Left",
-        "texture": "Vehicles/vehicle_carlights_police"
+        "texture": "Vehicles/vehicle_carlights_police",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarLightsSmashedRear": {
         "mesh": "vehicles/Vehicles_CarNormalLightsSMASH_Rear",
-        "texture": "Vehicles/vehicle_carlights_police"
+        "texture": "Vehicles/vehicle_carlights_police",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarLightsSmashedRight": {
         "mesh": "vehicles/Vehicles_CarNormalLightsSMASH_Right",
-        "texture": "Vehicles/vehicle_carlights_police"
+        "texture": "Vehicles/vehicle_carlights_police",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarLuxury": {
         "mesh": "vehicles/Vehicles_LuxuryCar",
-        "texture": "Vehicles/vehicle_luxurycarshell"
+        "texture": "Vehicles/vehicle_luxurycarshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.25,
+                2.14,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.25,
+                -2.08,
+                -0.93
+            ],
+            "FrontRight": [
+                1.25,
+                2.14,
+                -0.93
+            ],
+            "RearRight": [
+                1.25,
+                -2.08,
+                -0.93
+            ]
+        }
     },
     "Base.CarLuxurySmashedFront": {
         "mesh": "vehicles/Vehicles_LuxuryCarSMASH_Front",
-        "texture": "Vehicles/vehicle_luxurycarshell"
+        "texture": "Vehicles/vehicle_luxurycarshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.25,
+                2.14,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.25,
+                -2.08,
+                -0.93
+            ],
+            "FrontRight": [
+                1.25,
+                2.14,
+                -0.93
+            ],
+            "RearRight": [
+                1.25,
+                -2.08,
+                -0.93
+            ]
+        }
     },
     "Base.CarLuxurySmashedLeft": {
         "mesh": "vehicles/Vehicles_LuxuryCarSMASH_Left",
-        "texture": "Vehicles/vehicle_luxurycarshell"
+        "texture": "Vehicles/vehicle_luxurycarshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.25,
+                2.14,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.25,
+                -2.08,
+                -0.93
+            ],
+            "FrontRight": [
+                1.25,
+                2.14,
+                -0.93
+            ],
+            "RearRight": [
+                1.25,
+                -2.08,
+                -0.93
+            ]
+        }
     },
     "Base.CarLuxurySmashedRear": {
         "mesh": "vehicles/Vehicles_LuxuryCarSMASH_Rear",
-        "texture": "Vehicles/vehicle_luxurycarshell"
+        "texture": "Vehicles/vehicle_luxurycarshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.25,
+                2.14,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.25,
+                -2.08,
+                -0.93
+            ],
+            "FrontRight": [
+                1.25,
+                2.14,
+                -0.93
+            ],
+            "RearRight": [
+                1.25,
+                -2.08,
+                -0.93
+            ]
+        }
     },
     "Base.CarLuxurySmashedRight": {
         "mesh": "vehicles/Vehicles_LuxuryCarSMASH_Right",
-        "texture": "Vehicles/vehicle_luxurycarshell"
+        "texture": "Vehicles/vehicle_luxurycarshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.25,
+                2.14,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.25,
+                -2.08,
+                -0.93
+            ],
+            "FrontRight": [
+                1.25,
+                2.14,
+                -0.93
+            ],
+            "RearRight": [
+                1.25,
+                -2.08,
+                -0.93
+            ]
+        }
     },
     "Base.CarNormal": {
         "mesh": "vehicles/Vehicles_CarNormal",
-        "texture": "Vehicles/vehicle_carnormalshell"
+        "texture": "Vehicles/vehicle_carnormalshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarNormalBurnt": {
         "mesh": "vehicles/Vehicles_CarNormal_Burnt",
-        "texture": "Vehicles/vehicles_carnormal_burnt"
+        "texture": "Vehicles/vehicles_carnormal_burnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.CarNormalSmashedFront": {
         "mesh": "vehicles/Vehicles_CarNormalSMASH_Front",
-        "texture": "Vehicles/vehicle_carnormalshell"
+        "texture": "Vehicles/vehicle_carnormalshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarNormalSmashedLeft": {
         "mesh": "vehicles/Vehicles_CarNormalSMASH_Left",
-        "texture": "Vehicles/vehicle_carnormalshell"
+        "texture": "Vehicles/vehicle_carnormalshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarNormalSmashedRear": {
         "mesh": "vehicles/Vehicles_CarNormalSMASH_Rear",
-        "texture": "Vehicles/vehicle_carnormalshell"
+        "texture": "Vehicles/vehicle_carnormalshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarNormalSmashedRight": {
         "mesh": "vehicles/Vehicles_CarNormalSMASH_Right",
-        "texture": "Vehicles/vehicle_carnormalshell"
+        "texture": "Vehicles/vehicle_carnormalshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarSmall02SmashedFront": {
         "mesh": "vehicles/Vehicles_SmallCar02CRASH_Front",
-        "texture": "Vehicles/vehicle_SmallCar2shell"
+        "texture": "Vehicles/vehicle_SmallCar2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.0,
+                1.87,
+                -1.0
+            ],
+            "RearLeft": [
+                -1.0,
+                -2.23,
+                -1.0
+            ],
+            "FrontRight": [
+                1.0,
+                1.87,
+                -1.0
+            ],
+            "RearRight": [
+                1.0,
+                -2.23,
+                -1.0
+            ]
+        }
     },
     "Base.CarSmall02SmashedLeft": {
         "mesh": "vehicles/Vehicles_SmallCar02CRASH_Left",
-        "texture": "Vehicles/vehicle_SmallCar2shell"
+        "texture": "Vehicles/vehicle_SmallCar2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.0,
+                1.87,
+                -1.0
+            ],
+            "RearLeft": [
+                -1.0,
+                -2.23,
+                -1.0
+            ],
+            "FrontRight": [
+                1.0,
+                1.87,
+                -1.0
+            ],
+            "RearRight": [
+                1.0,
+                -2.23,
+                -1.0
+            ]
+        }
     },
     "Base.CarSmall02SmashedRear": {
         "mesh": "vehicles/Vehicles_SmallCar02SMASH_Rear",
-        "texture": "Vehicles/vehicle_SmallCar2shell"
+        "texture": "Vehicles/vehicle_SmallCar2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.0,
+                1.87,
+                -1.0
+            ],
+            "RearLeft": [
+                -1.0,
+                -2.23,
+                -1.0
+            ],
+            "FrontRight": [
+                1.0,
+                1.87,
+                -1.0
+            ],
+            "RearRight": [
+                1.0,
+                -2.23,
+                -1.0
+            ]
+        }
     },
     "Base.CarSmall02SmashedRight": {
         "mesh": "vehicles/Vehicles_SmallCar02CRASH_Right",
-        "texture": "Vehicles/vehicle_SmallCar2shell"
+        "texture": "Vehicles/vehicle_SmallCar2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.0,
+                1.87,
+                -1.0
+            ],
+            "RearLeft": [
+                -1.0,
+                -2.23,
+                -1.0
+            ],
+            "FrontRight": [
+                1.0,
+                1.87,
+                -1.0
+            ],
+            "RearRight": [
+                1.0,
+                -2.23,
+                -1.0
+            ]
+        }
     },
     "Base.CarSmallSmashedFront": {
         "mesh": "vehicles/Vehicles_SmallCarSMASH_Front",
-        "texture": "Vehicles/vehicle_smallcarshell"
+        "texture": "Vehicles/vehicle_smallcarshell",
+        "wheel": {
+            "FrontLeft": [
+                -0.9,
+                1.61,
+                -0.75
+            ],
+            "RearLeft": [
+                -0.9,
+                -1.82,
+                -0.75
+            ],
+            "FrontRight": [
+                0.9,
+                1.61,
+                -0.75
+            ],
+            "RearRight": [
+                0.9,
+                -1.82,
+                -0.75
+            ]
+        }
     },
     "Base.CarSmallSmashedLeft": {
         "mesh": "vehicles/Vehicles_SmallCarCRASH_Left",
-        "texture": "Vehicles/vehicle_smallcarshell"
+        "texture": "Vehicles/vehicle_smallcarshell",
+        "wheel": {
+            "FrontLeft": [
+                -0.9,
+                1.61,
+                -0.75
+            ],
+            "RearLeft": [
+                -0.9,
+                -1.82,
+                -0.75
+            ],
+            "FrontRight": [
+                0.9,
+                1.61,
+                -0.75
+            ],
+            "RearRight": [
+                0.9,
+                -1.82,
+                -0.75
+            ]
+        }
     },
     "Base.CarSmallSmashedRear": {
         "mesh": "vehicles/Vehicles_SmallCarSMASH_Rear",
-        "texture": "Vehicles/vehicle_smallcarshell"
+        "texture": "Vehicles/vehicle_smallcarshell",
+        "wheel": {
+            "FrontLeft": [
+                -0.9,
+                1.61,
+                -0.75
+            ],
+            "RearLeft": [
+                -0.9,
+                -1.82,
+                -0.75
+            ],
+            "FrontRight": [
+                0.9,
+                1.61,
+                -0.75
+            ],
+            "RearRight": [
+                0.9,
+                -1.82,
+                -0.75
+            ]
+        }
     },
     "Base.CarSmallSmashedRight": {
         "mesh": "vehicles/Vehicles_SmallCarSMASH_Right",
-        "texture": "Vehicles/vehicle_smallcarshell"
+        "texture": "Vehicles/vehicle_smallcarshell",
+        "wheel": {
+            "FrontLeft": [
+                -0.9,
+                1.61,
+                -0.75
+            ],
+            "RearLeft": [
+                -0.9,
+                -1.82,
+                -0.75
+            ],
+            "FrontRight": [
+                0.9,
+                1.61,
+                -0.75
+            ],
+            "RearRight": [
+                0.9,
+                -1.82,
+                -0.75
+            ]
+        }
     },
     "Base.CarStationWagon": {
         "mesh": "vehicles/Vehicles_CarStationWagon",
-        "texture": "Vehicles/vehicle_statwagonshell"
+        "texture": "Vehicles/vehicle_statwagonshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarStationWagon2": {
         "mesh": "vehicles/Vehicles_CarStationWagon",
-        "texture": "Vehicles/vehicle_statwagon2shell"
+        "texture": "Vehicles/vehicle_statwagon2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarStationWagonSmashedFront": {
         "mesh": "vehicles/Vehicles_CarStationWagonSMASH_Front",
-        "texture": "Vehicles/vehicle_statwagon2shell"
+        "texture": "Vehicles/vehicle_statwagon2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarStationWagonSmashedLeft": {
         "mesh": "vehicles/Vehicles_CarStationWagonSMASH_Left",
-        "texture": "Vehicles/vehicle_statwagon2shell"
+        "texture": "Vehicles/vehicle_statwagon2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarStationWagonSmashedRear": {
         "mesh": "vehicles/Vehicles_CarStationWagonSMASH_Rear",
-        "texture": "Vehicles/vehicle_statwagon2shell"
+        "texture": "Vehicles/vehicle_statwagon2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarStationWagonSmashedRight": {
         "mesh": "vehicles/Vehicles_CarStationWagonSMASH_Right",
-        "texture": "Vehicles/vehicle_statwagon2shell"
+        "texture": "Vehicles/vehicle_statwagon2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarTaxi": {
         "mesh": "vehicles/Vehicles_CarTaxi",
-        "texture": "Vehicles/vehicle_cartaxishell"
+        "texture": "Vehicles/vehicle_cartaxishell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.CarTaxi2": {
         "mesh": "vehicles/Vehicles_CarTaxi",
-        "texture": "Vehicles/vehicle_cartaxi2shell"
+        "texture": "Vehicles/vehicle_cartaxi2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.LuxuryCarBurnt": {
         "mesh": "vehicles/Vehicles_LuxuryCarBurnt",
-        "texture": "Vehicles/vehicles_luxurycar_burnt"
+        "texture": "Vehicles/vehicles_luxurycar_burnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        },
+        "camera": {
+            "lens": 50
+        }
     },
     "Base.ModernCar": {
         "mesh": "vehicles/Vehicles_ModernCar",
-        "texture": "Vehicles/vehicle_moderncarshell"
+        "texture": "Vehicles/vehicle_moderncarshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.ModernCar02": {
         "mesh": "vehicles/Vehicles_ModernCar02",
-        "texture": "Vehicles/vehicle_moderncar2shell"
+        "texture": "Vehicles/vehicle_moderncar2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.ModernCar02Burnt": {
         "mesh": "vehicles/Vehicles_ModernCar02_Burnt",
-        "texture": "Vehicles/vehicles_moderncar02_burnt"
+        "texture": "Vehicles/vehicles_moderncar02_burnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.ModernCar02SmashedFront": {
         "mesh": "vehicles/Vehicles_ModernCar02SMASH_Front",
-        "texture": "Vehicles/vehicle_moderncar2shell"
+        "texture": "Vehicles/vehicle_moderncar2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.ModernCar02SmashedLeft": {
         "mesh": "vehicles/Vehicles_ModernCar02SMASH_Left",
-        "texture": "Vehicles/vehicle_moderncar2shell"
+        "texture": "Vehicles/vehicle_moderncar2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.ModernCar02SmashedRear": {
         "mesh": "vehicles/Vehicles_ModernCar02SMASH_Rear",
-        "texture": "Vehicles/vehicle_moderncar2shell"
+        "texture": "Vehicles/vehicle_moderncar2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.ModernCar02SmashedRight": {
         "mesh": "vehicles/Vehicles_ModernCar02SMASH_Right",
-        "texture": "Vehicles/vehicle_moderncar2shell"
+        "texture": "Vehicles/vehicle_moderncar2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.ModernCarBurnt": {
         "mesh": "vehicles/Vehicles_ModernCarBurnt",
-        "texture": "Vehicles/vehicles_moderncar_burnt"
+        "texture": "Vehicles/vehicles_moderncar_burnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.ModernCarLightsCityLouisvillePD": {
         "mesh": "vehicles/Vehicles_ModernCarLights",
-        "texture": "Vehicles/vehicle_moderncarlights_citylouisvillepd"
+        "texture": "Vehicles/vehicle_moderncarlights_citylouisvillepd",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.ModernCarLightsMeadeSheriff": {
         "mesh": "vehicles/Vehicles_ModernCarLights",
-        "texture": "Vehicles/vehicle_moderncarlights_meadesheriff"
+        "texture": "Vehicles/vehicle_moderncarlights_meadesheriff",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.ModernCarLightsWestPoint": {
         "mesh": "vehicles/Vehicles_ModernCarLights",
-        "texture": "Vehicles/vehicle_moderncarlights_westpoint"
+        "texture": "Vehicles/vehicle_moderncarlights_westpoint",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.ModernCarSmashedFront": {
         "mesh": "vehicles/Vehicles_ModernCarSMASH_Front",
-        "texture": "Vehicles/vehicle_moderncarshell"
+        "texture": "Vehicles/vehicle_moderncarshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.ModernCarSmashedLeft": {
         "mesh": "vehicles/Vehicles_ModernCarSMASH_Left",
-        "texture": "Vehicles/vehicle_moderncarshell"
+        "texture": "Vehicles/vehicle_moderncarshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.ModernCarSmashedRear": {
         "mesh": "vehicles/Vehicles_ModernCarSMASH_Rear",
-        "texture": "Vehicles/vehicle_moderncarshell"
+        "texture": "Vehicles/vehicle_moderncarshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.ModernCarSmashedRight": {
         "mesh": "vehicles/Vehicles_ModernCarSMASH_Right",
-        "texture": "Vehicles/vehicle_moderncarshell"
+        "texture": "Vehicles/vehicle_moderncarshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.1,
+                2.3,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.1,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.1,
+                2.3,
+                -0.93
+            ],
+            "RearRight": [
+                1.1,
+                -1.96,
+                -0.93
+            ]
+        }
     },
     "Base.ModernCar_Martin": {
-        "mesh": "vehicles/ModernCarWithDoors_Martin|Vehicles_ModernCar_mesh",
-        "texture": "Vehicles/vehicle_moderncarshell"
+        "mesh": "vehicles/ModernCarWithDoors_Martin",
+        "texture": "Vehicles/vehicle_moderncarshell",
+        "wheel": {
+            "FrontLeft": [
+                -0.88,
+                1.81,
+                -0.93,
+                0.85
+            ],
+            "RearLeft": [
+                -0.88,
+                -1.53,
+                -0.93,
+                0.85
+            ],
+            "FrontRight": [
+                0.88,
+                1.81,
+                -0.93,
+                0.85
+            ],
+            "RearRight": [
+                0.88,
+                -1.53,
+                -0.93,
+                0.85
+            ]
+        },
+        "location": [
+            0,
+            0,
+            -12.8
+        ],
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.NormalCarBurntPolice": {
         "mesh": "vehicles/Vehicles_NormalCar_BurntPolice",
-        "texture": "Vehicles/vehicles_normalcar_burntpolice"
+        "texture": "Vehicles/vehicles_normalcar_burntpolice",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.OffRoad": {
         "mesh": "vehicles/Vehicles_OffRoad",
-        "texture": "Vehicles/vehicle_offroadshell"
+        "texture": "Vehicles/vehicle_offroadshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                1.93,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.7,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                1.93,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.7,
+                -0.93
+            ]
+        }
     },
     "Base.OffRoadBurnt": {
         "mesh": "vehicles/Vehicles_OffRoadBurnt",
-        "texture": "Vehicles/vehicles_offroad_burnt"
+        "texture": "Vehicles/vehicles_offroad_burnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                1.93,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.7,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                1.93,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.7,
+                -0.93
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.OffRoadSmashedFront": {
         "mesh": "vehicles/Vehicles_OffRoadCRASH_Front",
-        "texture": "Vehicles/vehicle_offroadshell"
+        "texture": "Vehicles/vehicle_offroadshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                1.93,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.7,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                1.93,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.7,
+                -0.93
+            ]
+        }
     },
     "Base.OffRoadSmashedLeft": {
         "mesh": "vehicles/Vehicles_OffRoadCRASH_Left",
-        "texture": "Vehicles/vehicle_offroadshell"
+        "texture": "Vehicles/vehicle_offroadshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                1.93,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.7,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                1.93,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.7,
+                -0.93
+            ]
+        }
     },
     "Base.OffRoadSmashedRear": {
         "mesh": "vehicles/Vehicles_OffRoadCRASH_Rear",
-        "texture": "Vehicles/vehicle_offroadshell"
+        "texture": "Vehicles/vehicle_offroadshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                1.93,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.7,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                1.93,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.7,
+                -0.93
+            ]
+        }
     },
     "Base.OffRoadSmashedRight": {
         "mesh": "vehicles/Vehicles_OffRoadCRASH_Right",
-        "texture": "Vehicles/vehicle_offroadshell"
+        "texture": "Vehicles/vehicle_offroadshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                1.93,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.7,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                1.93,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.7,
+                -0.93
+            ]
+        }
     },
     "Base.PickUpTruck": {
         "mesh": "vehicles/Vehicles_PickUpTruck",
-        "texture": "Vehicles/vehicle_pickupshell"
+        "texture": "Vehicles/vehicle_pickupshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckJPLandscaping": {
         "mesh": "vehicles/Vehicles_PickUpTruck",
-        "texture": "Vehicles/vehicle_pickuptruck_JPLandscapingshell"
+        "texture": "Vehicles/vehicle_pickuptruck_JPLandscapingshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckLightsAirport": {
         "mesh": "vehicles/Vehicles_PickUpTruckLights",
-        "texture": "Vehicles/vehicle_pickup_airportshell"
+        "texture": "Vehicles/vehicle_pickup_airportshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckLightsAirportSecurity": {
         "mesh": "vehicles/Vehicles_PickUpTruckLights",
-        "texture": "Vehicles/vehicle_pickuptruck_airportsecurityshell"
+        "texture": "Vehicles/vehicle_pickuptruck_airportsecurityshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckLightsFire": {
         "mesh": "vehicles/Vehicles_PickUpTruckLights",
-        "texture": "Vehicles/vehicle_pickupfireshell"
+        "texture": "Vehicles/vehicle_pickupfireshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckLightsFossoil": {
         "mesh": "vehicles/Vehicles_PickUpTruckLights",
-        "texture": "Vehicles/vehicle_pickupfossoilshell"
+        "texture": "Vehicles/vehicle_pickupfossoilshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckLightsRanger": {
         "mesh": "vehicles/Vehicles_PickUpTruckLights",
-        "texture": "Vehicles/vehicle_pickuptruck_ranger"
+        "texture": "Vehicles/vehicle_pickuptruck_ranger",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckLightsSmashedFront": {
         "mesh": "vehicles/Vehicles_PickUpTruckLightsCRASH_Front",
-        "texture": "Vehicles/vehicle_pickupfireshell"
+        "texture": "Vehicles/vehicle_pickupfireshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckLightsSmashedLeft": {
         "mesh": "vehicles/Vehicles_PickUpTruckLightsCRASH_Left",
-        "texture": "Vehicles/vehicle_pickupfireshell"
+        "texture": "Vehicles/vehicle_pickupfireshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckLightsSmashedRear": {
         "mesh": "vehicles/Vehicles_PickUpTruckLightsCRASH_Rear",
-        "texture": "Vehicles/vehicle_pickupfireshell"
+        "texture": "Vehicles/vehicle_pickupfireshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckLightsSmashedRight": {
         "mesh": "vehicles/Vehicles_PickUpTruckLightsCRASH_Right",
-        "texture": "Vehicles/vehicle_pickupfireshell"
+        "texture": "Vehicles/vehicle_pickupfireshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckMccoy": {
         "mesh": "vehicles/Vehicles_PickUpTruck",
-        "texture": "Vehicles/vehicle_pickupmccoyshell"
+        "texture": "Vehicles/vehicle_pickupmccoyshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckSmashedFront": {
         "mesh": "vehicles/Vehicles_PickUpTruckCRASH_Front",
-        "texture": "Vehicles/vehicle_pickupmccoyshell"
+        "texture": "Vehicles/vehicle_pickupmccoyshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckSmashedLeft": {
         "mesh": "vehicles/Vehicles_PickUpTruckCRASH_Left",
-        "texture": "Vehicles/vehicle_pickupmccoyshell"
+        "texture": "Vehicles/vehicle_pickupmccoyshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckSmashedRear": {
         "mesh": "vehicles/Vehicles_PickUpTruckCRASH_Rear",
-        "texture": "Vehicles/vehicle_pickupmccoyshell"
+        "texture": "Vehicles/vehicle_pickupmccoyshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruckSmashedRight": {
         "mesh": "vehicles/Vehicles_PickUpTruckCRASH_Right",
-        "texture": "Vehicles/vehicle_pickupmccoyshell"
+        "texture": "Vehicles/vehicle_pickupmccoyshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpTruck_Camo": {
         "mesh": "vehicles/Vehicles_PickUpTruck",
-        "texture": "Vehicles/vehicle_pickupshell_camo"
+        "texture": "Vehicles/vehicle_pickupshell_camo",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVan": {
         "mesh": "vehicles/Vehicles_PickUpVan",
-        "texture": "Vehicles/vehicle_pickupshell"
+        "texture": "Vehicles/vehicle_pickupshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanBrickingIt": {
         "mesh": "vehicles/Vehicles_PickUpVan",
-        "texture": "Vehicles/vehicle_pickuptruck_brickingitshell"
+        "texture": "Vehicles/vehicle_pickuptruck_brickingitshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanBuilder": {
         "mesh": "vehicles/Vehicles_PickUpVan",
-        "texture": "Vehicles/vehicle_pickuptruck_marchridgeconstructionshell"
+        "texture": "Vehicles/vehicle_pickuptruck_marchridgeconstructionshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanBurnt": {
         "mesh": "vehicles/Vehicles_PickUpVanBurnt",
-        "texture": "Vehicles/vehicles_pickupvanburnt"
+        "texture": "Vehicles/vehicles_pickupvanburnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.PickUpVanCallowayLandscaping": {
         "mesh": "vehicles/Vehicles_PickUpVan",
-        "texture": "Vehicles/vehicle_pickuptruck_callowaylandscapingshell"
+        "texture": "Vehicles/vehicle_pickuptruck_callowaylandscapingshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanHeltonMetalWorking": {
         "mesh": "vehicles/Vehicles_PickUpVan",
-        "texture": "Vehicles/vehicle_pickuptruck_heltonmetalworkingshell"
+        "texture": "Vehicles/vehicle_pickuptruck_heltonmetalworkingshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanKimbleKonstruction": {
         "mesh": "vehicles/Vehicles_PickUpVan",
-        "texture": "Vehicles/vehicle_pickuptruck_kimblekonstructionshell"
+        "texture": "Vehicles/vehicle_pickuptruck_kimblekonstructionshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanLightsBurnt": {
         "mesh": "vehicles/Vehicles_PickUpVanLightsBurnt",
-        "texture": "Vehicles/vehicles_pickupvanlightsburnt"
+        "texture": "Vehicles/vehicles_pickupvanlightsburnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.PickUpVanLightsCarpenter": {
         "mesh": "vehicles/Vehicles_PickUpVanLights",
-        "texture": "Vehicles/vehicle_pickuptrucklights_kentuckylumbershell"
+        "texture": "Vehicles/vehicle_pickuptrucklights_kentuckylumbershell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanLightsFire": {
         "mesh": "vehicles/Vehicles_PickUpVanLights",
-        "texture": "Vehicles/vehicle_pickupfireshell"
+        "texture": "Vehicles/vehicle_pickupfireshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanLightsFossoil": {
         "mesh": "vehicles/Vehicles_PickUpVanLights",
-        "texture": "Vehicles/vehicle_pickupfossoilshell"
+        "texture": "Vehicles/vehicle_pickupfossoilshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanLightsKentuckyLumber": {
         "mesh": "vehicles/Vehicles_PickUpVanLights",
-        "texture": "Vehicles/vehicle_pickuptrucklights_kentuckylumbershell"
+        "texture": "Vehicles/vehicle_pickuptrucklights_kentuckylumbershell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanLightsLouisvilleCounty": {
         "mesh": "vehicles/Vehicles_PickUpVanLights",
-        "texture": "Vehicles/vehicle_pickuptruck_louisvillecounty"
+        "texture": "Vehicles/vehicle_pickuptruck_louisvillecounty",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanLightsPolice": {
         "mesh": "vehicles/Vehicles_PickUpVanLights",
-        "texture": "Vehicles/vehicle_pickuppoliceshell"
+        "texture": "Vehicles/vehicle_pickuppoliceshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanLightsRanger": {
         "mesh": "vehicles/Vehicles_PickUpVanLights",
-        "texture": "Vehicles/vehicle_pickuptruck_ranger"
+        "texture": "Vehicles/vehicle_pickuptruck_ranger",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanLightsSmashedFront": {
         "mesh": "vehicles/Vehicles_PickUpVanLightsCRASH_Front",
-        "texture": "Vehicles/vehicle_pickuppoliceshell"
+        "texture": "Vehicles/vehicle_pickuppoliceshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanLightsSmashedLeft": {
         "mesh": "vehicles/Vehicles_PickUpVanLightsCRASH_Left",
-        "texture": "Vehicles/vehicle_pickuppoliceshell"
+        "texture": "Vehicles/vehicle_pickuppoliceshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanLightsSmashedRear": {
         "mesh": "vehicles/Vehicles_PickUpVanLightsCRASH_Rear",
-        "texture": "Vehicles/vehicle_pickuppoliceshell"
+        "texture": "Vehicles/vehicle_pickuppoliceshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanLightsSmashedRight": {
         "mesh": "vehicles/Vehicles_PickUpVanLightsCRASH_Right",
-        "texture": "Vehicles/vehicle_pickuppoliceshell"
+        "texture": "Vehicles/vehicle_pickuppoliceshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanLightsStatePolice": {
         "mesh": "vehicles/Vehicles_PickUpVanLights",
-        "texture": "Vehicles/vehicle_pickuptruck_statepolice"
+        "texture": "Vehicles/vehicle_pickuptruck_statepolice",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanMarchRidgeConstruction": {
         "mesh": "vehicles/Vehicles_PickUpVan",
-        "texture": "Vehicles/vehicle_pickuptruck_marchridgeconstructionshell"
+        "texture": "Vehicles/vehicle_pickuptruck_marchridgeconstructionshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanMccoy": {
         "mesh": "vehicles/Vehicles_PickUpVan",
-        "texture": "Vehicles/vehicle_pickupmccoyshell"
+        "texture": "Vehicles/vehicle_pickupmccoyshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanMetalworker": {
         "mesh": "vehicles/Vehicles_PickUpVan",
-        "texture": "Vehicles/vehicle_pickuptruck_heltonmetalworkingshell"
+        "texture": "Vehicles/vehicle_pickuptruck_heltonmetalworkingshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanSmashedFront": {
         "mesh": "vehicles/Vehicles_PickUpVanCRASH_Front",
-        "texture": "Vehicles/vehicle_pickupmccoyshell"
+        "texture": "Vehicles/vehicle_pickupmccoyshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanSmashedLeft": {
         "mesh": "vehicles/Vehicles_PickUpVanCRASH_Left",
-        "texture": "Vehicles/vehicle_pickupmccoyshell"
+        "texture": "Vehicles/vehicle_pickupmccoyshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanSmashedRear": {
         "mesh": "vehicles/Vehicles_PickUpVanCRASH_Rear",
-        "texture": "Vehicles/vehicle_pickupmccoyshell"
+        "texture": "Vehicles/vehicle_pickupmccoyshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanSmashedRight": {
         "mesh": "vehicles/Vehicles_PickUpVanCRASH_Right",
-        "texture": "Vehicles/vehicle_pickupmccoyshell"
+        "texture": "Vehicles/vehicle_pickupmccoyshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanWeldingbyCamille": {
         "mesh": "vehicles/Vehicles_PickUpVan",
-        "texture": "Vehicles/vehicle_pickuptruck_weldingbycamilleshell"
+        "texture": "Vehicles/vehicle_pickuptruck_weldingbycamilleshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVanYingsWood": {
         "mesh": "vehicles/Vehicles_PickUpVan",
-        "texture": "Vehicles/vehicle_pickuptruck_yingswoodshell"
+        "texture": "Vehicles/vehicle_pickuptruck_yingswoodshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickUpVan_Camo": {
         "mesh": "vehicles/Vehicles_PickUpVan",
-        "texture": "Vehicles/vehicle_pickupshell_camo"
+        "texture": "Vehicles/vehicle_pickupshell_camo",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.46,
+                -1.05
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.84,
+                -1.05
+            ],
+            "FrontRight": [
+                1.04,
+                2.46,
+                -1.05
+            ],
+            "RearRight": [
+                1.04,
+                -1.84,
+                -1.05
+            ]
+        }
     },
     "Base.PickupBurnt": {
         "mesh": "vehicles/Vehicles_PickUpBurnt",
-        "texture": "Vehicles/vehicles_pickupburnt"
+        "texture": "Vehicles/vehicles_pickupburnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.PickupSpecialBurnt": {
         "mesh": "vehicles/Vehicles_PickUpBurnt",
-        "texture": "Vehicles/vehicles_pickupburnt_ranger"
+        "texture": "Vehicles/vehicles_pickupburnt_ranger",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.SUV": {
         "mesh": "vehicles/Vehicles_SUV",
-        "texture": "Vehicles/vehicle_suvshell"
+        "texture": "Vehicles/vehicle_suvshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.23,
+                2.22,
+                -1.0
+            ],
+            "RearLeft": [
+                -1.23,
+                -1.84,
+                -1.0
+            ],
+            "FrontRight": [
+                1.23,
+                2.22,
+                -1.0
+            ],
+            "RearRight": [
+                1.23,
+                -1.84,
+                -1.0
+            ]
+        }
     },
     "Base.SUVBurnt": {
         "mesh": "vehicles/Vehicles_SUV_Burnt",
-        "texture": "Vehicles/vehicles_suv_burnt"
+        "texture": "Vehicles/vehicles_suv_burnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.23,
+                2.22,
+                -1.0
+            ],
+            "RearLeft": [
+                -1.23,
+                -1.84,
+                -1.0
+            ],
+            "FrontRight": [
+                1.23,
+                2.22,
+                -1.0
+            ],
+            "RearRight": [
+                1.23,
+                -1.84,
+                -1.0
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.SUVSmashedFront": {
         "mesh": "vehicles/Vehicles_SUVCRASH_Front",
-        "texture": "Vehicles/vehicle_suvshell"
+        "texture": "Vehicles/vehicle_suvshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.23,
+                2.22,
+                -1.0
+            ],
+            "RearLeft": [
+                -1.23,
+                -1.84,
+                -1.0
+            ],
+            "FrontRight": [
+                1.23,
+                2.22,
+                -1.0
+            ],
+            "RearRight": [
+                1.23,
+                -1.84,
+                -1.0
+            ]
+        }
     },
     "Base.SUVSmashedLeft": {
         "mesh": "vehicles/Vehicles_SUVCRASH_Left",
-        "texture": "Vehicles/vehicle_suvshell"
+        "texture": "Vehicles/vehicle_suvshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.23,
+                2.22,
+                -1.0
+            ],
+            "RearLeft": [
+                -1.23,
+                -1.84,
+                -1.0
+            ],
+            "FrontRight": [
+                1.23,
+                2.22,
+                -1.0
+            ],
+            "RearRight": [
+                1.23,
+                -1.84,
+                -1.0
+            ]
+        }
     },
     "Base.SUVSmashedRear": {
         "mesh": "vehicles/Vehicles_SUVCRASH_Rear",
-        "texture": "Vehicles/vehicle_suvshell"
+        "texture": "Vehicles/vehicle_suvshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.23,
+                2.22,
+                -1.0
+            ],
+            "RearLeft": [
+                -1.23,
+                -1.84,
+                -1.0
+            ],
+            "FrontRight": [
+                1.23,
+                2.22,
+                -1.0
+            ],
+            "RearRight": [
+                1.23,
+                -1.84,
+                -1.0
+            ]
+        }
     },
     "Base.SUVSmashedRight": {
         "mesh": "vehicles/Vehicles_SUVCRASH_Right",
-        "texture": "Vehicles/vehicle_suvshell"
+        "texture": "Vehicles/vehicle_suvshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.23,
+                2.22,
+                -1.0
+            ],
+            "RearLeft": [
+                -1.23,
+                -1.84,
+                -1.0
+            ],
+            "FrontRight": [
+                1.23,
+                2.22,
+                -1.0
+            ],
+            "RearRight": [
+                1.23,
+                -1.84,
+                -1.0
+            ]
+        }
     },
     "Base.SmallCar": {
         "mesh": "vehicles/Vehicles_SmallCar",
-        "texture": "Vehicles/vehicle_smallcarshell"
+        "texture": "Vehicles/vehicle_smallcarshell",
+        "wheel": {
+            "FrontLeft": [
+                -0.9,
+                1.61,
+                -0.75
+            ],
+            "RearLeft": [
+                -0.9,
+                -1.82,
+                -0.75
+            ],
+            "FrontRight": [
+                0.9,
+                1.61,
+                -0.75
+            ],
+            "RearRight": [
+                0.9,
+                -1.82,
+                -0.75
+            ]
+        }
     },
     "Base.SmallCar02": {
         "mesh": "vehicles/Vehicles_SmallCar02",
-        "texture": "Vehicles/vehicle_smallcar2shell"
+        "texture": "Vehicles/vehicle_smallcar2shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.0,
+                1.87,
+                -1.0
+            ],
+            "RearLeft": [
+                -1.0,
+                -2.23,
+                -1.0
+            ],
+            "FrontRight": [
+                1.0,
+                1.87,
+                -1.0
+            ],
+            "RearRight": [
+                1.0,
+                -2.23,
+                -1.0
+            ]
+        }
     },
     "Base.SmallCar02Burnt": {
         "mesh": "vehicles/Vehicles_SmallCar02Burnt",
-        "texture": "Vehicles/vehicles_smallcar02_burnt"
+        "texture": "Vehicles/vehicles_smallcar02_burnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.0,
+                1.87,
+                -1.0
+            ],
+            "RearLeft": [
+                -1.0,
+                -2.23,
+                -1.0
+            ],
+            "FrontRight": [
+                1.0,
+                1.87,
+                -1.0
+            ],
+            "RearRight": [
+                1.0,
+                -2.23,
+                -1.0
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.SmallCarBurnt": {
         "mesh": "vehicles/Vehicles_SmallCar_Burnt",
-        "texture": "Vehicles/vehicles_smallcar_burnt"
+        "texture": "Vehicles/vehicles_smallcar_burnt",
+        "wheel": {
+            "FrontLeft": [
+                -0.9,
+                1.61,
+                -0.75
+            ],
+            "RearLeft": [
+                -0.9,
+                -1.82,
+                -0.75
+            ],
+            "FrontRight": [
+                0.9,
+                1.61,
+                -0.75
+            ],
+            "RearRight": [
+                0.9,
+                -1.82,
+                -0.75
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.SportsCar": {
         "mesh": "vehicles/Vehicles_SportsCar",
-        "texture": "Vehicles/vehicle_sportscarshell"
+        "texture": "Vehicles/vehicle_sportscarshell",
+        "wheel": {
+            "FrontLeft": [
+                -0.95,
+                1.9,
+                -0.75
+            ],
+            "RearLeft": [
+                -0.95,
+                -1.82,
+                -0.75
+            ],
+            "FrontRight": [
+                0.95,
+                1.9,
+                -0.75
+            ],
+            "RearRight": [
+                0.95,
+                -1.82,
+                -0.75
+            ]
+        }
     },
     "Base.SportsCarBurnt": {
         "mesh": "vehicles/Vehicles_SportsCar_Burnt",
-        "texture": "Vehicles/vehicles_sportscar_burnt"
+        "texture": "Vehicles/vehicles_sportscar_burnt",
+        "wheel": {
+            "FrontLeft": [
+                -0.95,
+                1.9,
+                -0.75
+            ],
+            "RearLeft": [
+                -0.95,
+                -1.82,
+                -0.75
+            ],
+            "FrontRight": [
+                0.95,
+                1.9,
+                -0.75
+            ],
+            "RearRight": [
+                0.95,
+                -1.82,
+                -0.75
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.SportsCar_ez": {
-        "mesh": "vehicles/SportsCarWithDoors|body_mesh",
-        "texture": "Vehicles/vehicle_sportscarshell"
+        "mesh": "vehicles/SportsCarWithDoors",
+        "texture": "Vehicles/vehicle_sportscarshell",
+        "wheel": {
+            "FrontLeft": [
+                -0.95,
+                1.9,
+                -0.75
+            ],
+            "RearLeft": [
+                -0.95,
+                -1.82,
+                -0.75
+            ],
+            "FrontRight": [
+                0.95,
+                1.9,
+                -0.75
+            ],
+            "RearRight": [
+                0.95,
+                -1.82,
+                -0.75
+            ]
+        },
+        "location": [
+            0,
+            0.085,
+            -1.1917
+        ],
+        "camera": {
+            "index": 4
+        }
     },
     "Base.StepVan": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvanshell"
+        "texture": "Vehicles/vehicle_stepvanshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVanAirportCatering": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_airport_cateringshell"
+        "texture": "Vehicles/vehicle_stepvan_airport_cateringshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVanMail": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvanmailshell"
+        "texture": "Vehicles/vehicle_stepvanmailshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVanMailSmashedFront": {
         "mesh": "vehicles/Vehicle_StepVanSMASH_Front",
-        "texture": "Vehicles/vehicle_stepvanmailshell"
+        "texture": "Vehicles/vehicle_stepvanmailshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVanMailSmashedLeft": {
         "mesh": "vehicles/Vehicle_StepVanSMASH_Left",
-        "texture": "Vehicles/vehicle_stepvanmailshell"
+        "texture": "Vehicles/vehicle_stepvanmailshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVanMailSmashedRear": {
         "mesh": "vehicles/Vehicle_StepVanCRASH_Rear",
-        "texture": "Vehicles/vehicle_stepvanmailshell"
+        "texture": "Vehicles/vehicle_stepvanmailshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVanMailSmashedRight": {
         "mesh": "vehicles/Vehicle_StepVanCRASH_Right",
-        "texture": "Vehicles/vehicle_stepvanmailshell"
+        "texture": "Vehicles/vehicle_stepvanmailshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVanSmashedFront": {
         "mesh": "vehicles/Vehicle_StepVanSMASH_Front",
-        "texture": "Vehicles/vehicle_stepvanshell"
+        "texture": "Vehicles/vehicle_stepvanshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVanSmashedLeft": {
         "mesh": "vehicles/Vehicle_StepVanSMASH_Left",
-        "texture": "Vehicles/vehicle_stepvanshell"
+        "texture": "Vehicles/vehicle_stepvanshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVanSmashedRear": {
         "mesh": "vehicles/Vehicle_StepVanCRASH_Rear",
-        "texture": "Vehicles/vehicle_stepvanshell"
+        "texture": "Vehicles/vehicle_stepvanshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVanSmashedRight": {
         "mesh": "vehicles/Vehicle_StepVanCRASH_Right",
-        "texture": "Vehicles/vehicle_stepvanshell"
+        "texture": "Vehicles/vehicle_stepvanshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_Blacksmith": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/StepVan_Blacksmith_4"
+        "texture": "Vehicles/StepVan_Blacksmith_4",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_Butchers": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/StepVan_Butchers_2"
+        "texture": "Vehicles/StepVan_Butchers_2",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_Cereal": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicles_stepvan_sunballz_shell"
+        "texture": "Vehicles/vehicles_stepvan_sunballz_shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_Citr8": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_citr8"
+        "texture": "Vehicles/vehicle_stepvan_citr8",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_CompleteRepairShop": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_completerepairshopshell"
+        "texture": "Vehicles/vehicle_stepvan_completerepairshopshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_Florist": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/StepVan_Florist_2"
+        "texture": "Vehicles/StepVan_Florist_2",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_Genuine_Beer": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_beergenuine_shell"
+        "texture": "Vehicles/vehicle_stepvan_beergenuine_shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_Glass": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/StepVan_GlassWorks_1"
+        "texture": "Vehicles/StepVan_GlassWorks_1",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_Heralds": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_kentuckyheraldshell"
+        "texture": "Vehicles/vehicle_stepvan_kentuckyheraldshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_HuangsLaundry": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_huangslaundryshell"
+        "texture": "Vehicles/vehicle_stepvan_huangslaundryshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_Jorgensen": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_jorgensenshell"
+        "texture": "Vehicles/vehicle_stepvan_jorgensenshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_LouisvilleMotorShop": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_louisvillemotorshopshell"
+        "texture": "Vehicles/vehicle_stepvan_louisvillemotorshopshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_LouisvilleSWAT": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_louisvilleswat"
+        "texture": "Vehicles/vehicle_stepvan_louisvilleswat",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_MarineBites": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvanshell_marinebites"
+        "texture": "Vehicles/vehicle_stepvanshell_marinebites",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_Masonry": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/StepVan_Masonry_3"
+        "texture": "Vehicles/StepVan_Masonry_3",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_Mechanic": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_louisvillemotorshopshell"
+        "texture": "Vehicles/vehicle_stepvan_louisvillemotorshopshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_MobileLibrary": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/StepVan_Library_2"
+        "texture": "Vehicles/StepVan_Library_2",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_Plonkies": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_plonkies"
+        "texture": "Vehicles/vehicle_stepvan_plonkies",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_RandisPlants": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_randisplantsshell"
+        "texture": "Vehicles/vehicle_stepvan_randisplantsshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_Scarlet": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_scarletdist"
+        "texture": "Vehicles/vehicle_stepvan_scarletdist",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_SmartKut": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_tailoring_1"
+        "texture": "Vehicles/vehicle_stepvan_tailoring_1",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_SouthEasternHosp": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_southeasternhospshell"
+        "texture": "Vehicles/vehicle_stepvan_southeasternhospshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_SouthEasternPaint": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_southeasternpaintshell"
+        "texture": "Vehicles/vehicle_stepvan_southeasternpaintshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_USL": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvan_uslshell"
+        "texture": "Vehicles/vehicle_stepvan_uslshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.StepVan_Zippee": {
         "mesh": "vehicles/Vehicle_StepVan",
-        "texture": "Vehicles/vehicle_stepvanshell_zippee"
+        "texture": "Vehicles/vehicle_stepvanshell_zippee",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.46,
+                -1.44
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.8,
+                -1.44
+            ],
+            "FrontRight": [
+                1.17,
+                2.46,
+                -1.44
+            ],
+            "RearRight": [
+                1.17,
+                -1.8,
+                -1.44
+            ]
+        }
     },
     "Base.TaxiBurnt": {
         "mesh": "vehicles/Vehicles_CarNormal_Burnt",
-        "texture": "Vehicles/vehicles_taxi_burnt"
+        "texture": "Vehicles/vehicles_taxi_burnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.04,
+                2.67,
+                -0.93
+            ],
+            "RearLeft": [
+                -1.04,
+                -1.96,
+                -0.93
+            ],
+            "FrontRight": [
+                1.04,
+                2.67,
+                -0.93
+            ],
+            "RearRight": [
+                1.04,
+                -1.96,
+                -0.93
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.Trailer": {
         "mesh": "vehicles/vehicle_utilitytrailer",
-        "texture": "Vehicles/vehicle_utilitytrailershell"
+        "texture": "Vehicles/vehicle_utilitytrailershell",
+        "wheel": {
+            "Left": [
+                -0.8,
+                -0.78,
+                -0.8,
+                0.9
+            ],
+            "Right": [
+                0.8,
+                -0.78,
+                -0.8,
+                0.9
+            ]
+        },
+        "location": [
+            0,
+            0,
+            -0.45
+        ],
+        "camera": {
+            "lens": 80
+        }
     },
     "Base.TrailerAdvert": {
         "mesh": "vehicles/vehicle_adverttrailer",
-        "texture": "Vehicles/AdvertTrailer_Western2"
+        "texture": "Vehicles/AdvertTrailer_Western2",
+        "wheel": {
+            "FrontLeft": [
+                -0.8,
+                0,
+                -1.71,
+                0.9
+            ],
+            "RearLeft": [
+                -0.8,
+                -1,
+                -1.71,
+                0.9
+            ],
+            "FrontRight": [
+                0.8,
+                0,
+                -1.71,
+                0.9
+            ],
+            "RearRight": [
+                0.8,
+                -1,
+                -1.71,
+                0.9
+            ]
+        }
     },
     "Base.TrailerCover": {
         "mesh": "vehicles/vehicle_utilitytrailercover",
-        "texture": "Vehicles/vehicle_utilitytrailershell"
+        "texture": "Vehicles/vehicle_utilitytrailershell",
+        "wheel": {
+            "Left": [
+                -0.8,
+                -0.78,
+                -0.8,
+                0.9
+            ],
+            "Right": [
+                0.8,
+                -0.78,
+                -0.8,
+                0.9
+            ]
+        },
+        "location": [
+            0,
+            0,
+            -0.45
+        ],
+        "camera": {
+            "lens": 80
+        }
     },
     "Base.Trailer_Horsebox": {
         "mesh": "vehicles/vehicle_horsebox",
-        "texture": "Vehicles/HorseBoxSHELL"
+        "texture": "Vehicles/HorseBoxSHELL",
+        "wheel": {
+            "FrontLeft": [
+                -1.31,
+                -1.23,
+                -1.65,
+                0.9
+            ],
+            "RearLeft": [
+                -1.31,
+                -2.22,
+                -1.65,
+                0.9
+            ],
+            "FrontRight": [
+                1.31,
+                -1.23,
+                -1.65,
+                0.9
+            ],
+            "RearRight": [
+                1.31,
+                -2.23,
+                -1.65,
+                0.9
+            ]
+        }
     },
     "Base.Trailer_Livestock": {
         "mesh": "vehicles/vehicle_livestocktrailer",
-        "texture": "Vehicles/LivestockTrailer"
+        "texture": "Vehicles/LivestockTrailer",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                -0.67,
+                -1.25,
+                0.9
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.66,
+                -1.25,
+                0.9
+            ],
+            "FrontRight": [
+                1.17,
+                -0.67,
+                -1.25,
+                0.9
+            ],
+            "RearRight": [
+                1.17,
+                -1.66,
+                -1.25,
+                0.9
+            ]
+        }
     },
     "Base.Van": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanshell"
+        "texture": "Vehicles/vehicle_vanshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanAmbulance": {
         "mesh": "vehicles/Vehicles_VanAmbulance",
-        "texture": "Vehicles/vehicle_vanambulanceshell"
+        "texture": "Vehicles/vehicle_vanambulanceshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanBeckmans": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanbeckmansshell"
+        "texture": "Vehicles/vehicle_vanbeckmansshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanBrewsterHarbin": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanbrewsterharbinshell"
+        "texture": "Vehicles/vehicle_vanbrewsterharbinshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanBuilder": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vankerrhomesshell"
+        "texture": "Vehicles/vehicle_vankerrhomesshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanBurnt": {
         "mesh": "vehicles/Vehicles_Van_Burnt",
-        "texture": "Vehicles/vehicles_van_burnt"
+        "texture": "Vehicles/vehicles_van_burnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.VanCarpenter": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanrosewoodworkingshell"
+        "texture": "Vehicles/vehicle_vanrosewoodworkingshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanCoastToCoast": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vancoasttocoastshell"
+        "texture": "Vehicles/vehicle_vancoasttocoastshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanDeerValley": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vandeervalleyshell"
+        "texture": "Vehicles/vehicle_vandeervalleyshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanFossoil": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanfossoilshell"
+        "texture": "Vehicles/vehicle_vanfossoilshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanGardenGods": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vangardengodsshell"
+        "texture": "Vehicles/vehicle_vangardengodsshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanGardener": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vantreybainesshell"
+        "texture": "Vehicles/vehicle_vantreybainesshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanGreenes": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vangreenesshell"
+        "texture": "Vehicles/vehicle_vangreenesshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanJohnMcCoy": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanjohnmccoyshell"
+        "texture": "Vehicles/vehicle_vanjohnmccoyshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanJonesFabrication": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanjonesfabshell"
+        "texture": "Vehicles/vehicle_vanjonesfabshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanKerrHomes": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vankerrhomesshell"
+        "texture": "Vehicles/vehicle_vankerrhomesshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanKnobCreekGas": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanknobcreekgasshell"
+        "texture": "Vehicles/vehicle_vanknobcreekgasshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanKnoxCom": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanknoxtelecomshell"
+        "texture": "Vehicles/vehicle_vanknoxtelecomshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanKorshunovs": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vankorshunovscarcentershell"
+        "texture": "Vehicles/vehicle_vankorshunovscarcentershell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanLouisvilleLandscaping": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanlouisvillelandscapingshell"
+        "texture": "Vehicles/vehicle_vanlouisvillelandscapingshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanMail": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanpostalshell"
+        "texture": "Vehicles/vehicle_vanpostalshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanMccoy": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanmccoyshell"
+        "texture": "Vehicles/vehicle_vanmccoyshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanMechanic": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanplattautoshell"
+        "texture": "Vehicles/vehicle_vanplattautoshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanMeltingPointMetal": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanmeltingpointmetalshell"
+        "texture": "Vehicles/vehicle_vanmeltingpointmetalshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanMetalheads": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanmetalheadsshell"
+        "texture": "Vehicles/vehicle_vanmetalheadsshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanMetalworker": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanschwabsheetmetalshell"
+        "texture": "Vehicles/vehicle_vanschwabsheetmetalshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanMicheles": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanmichelesshell"
+        "texture": "Vehicles/vehicle_vanmichelesshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanMobileMechanics": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanmobilemechanicshell"
+        "texture": "Vehicles/vehicle_vanmobilemechanicshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanMooreMechanics": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanmooremechanicsshell"
+        "texture": "Vehicles/vehicle_vanmooremechanicsshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanOldMill": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanoldmillshell"
+        "texture": "Vehicles/vehicle_vanoldmillshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanOvoFarm": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanovofarmshell"
+        "texture": "Vehicles/vehicle_vanovofarmshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanPennSHam": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanpennshamshell"
+        "texture": "Vehicles/vehicle_vanpennshamshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanPlattAuto": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanplattautoshell"
+        "texture": "Vehicles/vehicle_vanplattautoshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanPluggedInElectrics": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanpluggedinelectricsshell"
+        "texture": "Vehicles/vehicle_vanpluggedinelectricsshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanRadio": {
         "mesh": "vehicles/Vehicles_VanRadio",
-        "texture": "Vehicles/vehicle_vanradio_lbmwshell"
+        "texture": "Vehicles/vehicle_vanradio_lbmwshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanRadioBurnt": {
         "mesh": "vehicles/Vehicles_VanRadio_Burnt",
-        "texture": "Vehicles/vehicles_vanradio_burnt"
+        "texture": "Vehicles/vehicles_vanradio_burnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.VanRadio_3N": {
         "mesh": "vehicles/Vehicles_VanRadio",
-        "texture": "Vehicles/vehicle_vanradio_3nshell"
+        "texture": "Vehicles/vehicle_vanradio_3nshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanRiversideFabrication": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanriversidefabshell"
+        "texture": "Vehicles/vehicle_vanriversidefabshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanRosewoodworking": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanrosewoodworkingshell"
+        "texture": "Vehicles/vehicle_vanrosewoodworkingshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanSchwabSheetMetal": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanschwabsheetmetalshell"
+        "texture": "Vehicles/vehicle_vanschwabsheetmetalshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanSeats": {
         "mesh": "vehicles/Vehicles_VanSeats",
-        "texture": "Vehicles/vehicle_vanseatsshell"
+        "texture": "Vehicles/vehicle_vanseatsshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanSeatsAirportShuttle": {
         "mesh": "vehicles/Vehicles_VanSeats",
-        "texture": "Vehicles/vehicle_vanseats_airportshell"
+        "texture": "Vehicles/vehicle_vanseats_airportshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanSeatsBurnt": {
         "mesh": "vehicles/Vehicles_VanSeats_Burnt",
-        "texture": "Vehicles/vehicles_vanseats_burnt"
+        "texture": "Vehicles/vehicles_vanseats_burnt",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        },
+        "camera": {
+            "lens": 60
+        }
     },
     "Base.VanSeats_Creature": {
         "mesh": "vehicles/Vehicles_VanSeats",
-        "texture": "Vehicles/vehicle_vanseats_mural_creature_shell"
+        "texture": "Vehicles/vehicle_vanseats_mural_creature_shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanSeats_LadyDelighter": {
         "mesh": "vehicles/Vehicles_VanSeats",
-        "texture": "Vehicles/vehicle_vanseats_mural_ladydelighter_shell"
+        "texture": "Vehicles/vehicle_vanseats_mural_ladydelighter_shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanSeats_Mural": {
         "mesh": "vehicles/Vehicles_VanSeats",
-        "texture": "Vehicles/vehicle_vanseats_mural_valkyrie_shell"
+        "texture": "Vehicles/vehicle_vanseats_mural_valkyrie_shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanSeats_Prison": {
         "mesh": "vehicles/Vehicles_VanSeats",
-        "texture": "Vehicles/vehicle_vanseats_prisonshell"
+        "texture": "Vehicles/vehicle_vanseats_prisonshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanSeats_Space": {
         "mesh": "vehicles/Vehicles_VanSeats",
-        "texture": "Vehicles/vehicle_vanseats_mural_space_shell"
+        "texture": "Vehicles/vehicle_vanseats_mural_space_shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanSeats_Trippy": {
         "mesh": "vehicles/Vehicles_VanSeats",
-        "texture": "Vehicles/vehicle_vanseats_mural_trippy_shell"
+        "texture": "Vehicles/vehicle_vanseats_mural_trippy_shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanSeats_Valkyrie": {
         "mesh": "vehicles/Vehicles_VanSeats",
-        "texture": "Vehicles/vehicle_vanseats_mural_valkyrie_shell"
+        "texture": "Vehicles/vehicle_vanseats_mural_valkyrie_shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanSpiffo": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanspiffoshell"
+        "texture": "Vehicles/vehicle_vanspiffoshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanTreyBaines": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vantreybainesshell"
+        "texture": "Vehicles/vehicle_vantreybainesshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanUncloggers": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanuncloggersshell"
+        "texture": "Vehicles/vehicle_vanuncloggersshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanUtility": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanknoxtelecomshell"
+        "texture": "Vehicles/vehicle_vanknoxtelecomshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.VanWPCarpentry": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanwpcarpentryshell"
+        "texture": "Vehicles/vehicle_vanwpcarpentryshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_Blacksmith": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/Van_Blacksmith_3"
+        "texture": "Vehicles/Van_Blacksmith_3",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_BugWipers": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanbugwipersshell"
+        "texture": "Vehicles/vehicle_vanbugwipersshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_Charlemange_Beer": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_van_beer_shell"
+        "texture": "Vehicles/vehicle_van_beer_shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_CraftSupplies": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/Van_Craft_01"
+        "texture": "Vehicles/Van_Craft_01",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_Glass": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/Van_GlassWorks_2"
+        "texture": "Vehicles/Van_GlassWorks_2",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_HeritageTailors": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_van_tailoring_2"
+        "texture": "Vehicles/vehicle_van_tailoring_2",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_KnoxDisti": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_van_knoxdistilleryshell"
+        "texture": "Vehicles/vehicle_van_knoxdistilleryshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_Leather": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/Van_Leatherwork_2"
+        "texture": "Vehicles/Van_Leatherwork_2",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_LectroMax": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_van_lectromaxshell"
+        "texture": "Vehicles/vehicle_van_lectromaxshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_Locksmith": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/Van_Locksmith_2"
+        "texture": "Vehicles/Van_Locksmith_2",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_Masonry": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/Van_Masonry_2"
+        "texture": "Vehicles/Van_Masonry_2",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_MassGenFac": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_van_massgenfacvoshell"
+        "texture": "Vehicles/vehicle_van_massgenfacvoshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_Perfick_Potato": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_van_chips_shell"
+        "texture": "Vehicles/vehicle_van_chips_shell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_Transit": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_van_ky_transitshell"
+        "texture": "Vehicles/vehicle_van_ky_transitshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     },
     "Base.Van_VoltMojo": {
         "mesh": "vehicles/Vehicles_Van",
-        "texture": "Vehicles/vehicle_vanvoltmojoshell"
+        "texture": "Vehicles/vehicle_vanvoltmojoshell",
+        "wheel": {
+            "FrontLeft": [
+                -1.17,
+                2.75,
+                -1.13
+            ],
+            "RearLeft": [
+                -1.17,
+                -1.68,
+                -1.13
+            ],
+            "FrontRight": [
+                1.17,
+                2.75,
+                -1.13
+            ],
+            "RearRight": [
+                1.17,
+                -1.68,
+                -1.13
+            ]
+        }
     }
 }

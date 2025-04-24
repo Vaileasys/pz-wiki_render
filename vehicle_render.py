@@ -63,137 +63,42 @@ def clear_scene():
     bpy.ops.object.delete(use_global=False)
 
 ## ------------------------- Vehicle import ------------------------- ##
-def import_model(mesh_rel):
+def import_model(mesh_rel, offset_loc=(0, 0, 0), offset_rot=(0, 0, 0)):
     mesh = os.path.join(MESH_PATH, mesh_rel.replace("/", os.sep))
-    
+
     possible_paths = [mesh + ".FBX", mesh + ".fbx"]
     abs_path = next((p for p in possible_paths if os.path.exists(p)), None)
 
     if not abs_path:
         print(f"Model not found for: {mesh_rel}.fbx")
-        return False
+        return []
 
+    before_import = set(bpy.context.scene.objects)
     bpy.ops.import_scene.fbx(filepath=abs_path)
-    return True
+    after_import = set(bpy.context.scene.objects)
+
+    imported_objects = list(after_import - before_import)
+    
+    for obj in imported_objects:
+        # Apply location offset
+        obj.location.x += offset_loc[0]
+        obj.location.y += offset_loc[1]
+        obj.location.z += offset_loc[2]
+
+        # Apply rotation offset (preserve existing orientation)
+        obj.rotation_euler.x += math.radians(offset_rot[0])
+        obj.rotation_euler.y += math.radians(offset_rot[1])
+        obj.rotation_euler.z += math.radians(offset_rot[2])
+
+    return imported_objects
 
 ## ------------------------- Wheel placement ------------------------- ##
-def attach_wheels(id_type):
-    WHEEL_ORIGINS = {
-        # "Name": (X, Y, Z, Scale) --scale is relative, based on wheel original size
-        "Van": {
-            "FrontLeft":  (-1.17,  2.75, -1.13),
-            "RearLeft":   (-1.17, -1.68, -1.13),
-            "FrontRight": (1.17,  2.75, -1.13),
-            "RearRight":  (1.17, -1.68, -1.13),
-        },
-        "StepVan": {
-            "FrontLeft":  (-1.17,  2.46, -1.44),
-            "RearLeft":   (-1.17, -1.8, -1.44),
-            "FrontRight": (1.17,  2.46, -1.44),
-            "RearRight":  (1.17, -1.8, -1.44),
-        },
-        "PickUp": {
-            "FrontLeft":  (-1.04,  2.46, -1.05),
-            "RearLeft":   (-1.04, -1.84, -1.05),
-            "FrontRight": (1.04,  2.46, -1.05),
-            "RearRight":  (1.04, -1.84, -1.05),
-        },
-        "SmallCar02": {
-            "FrontLeft":  (-1.00,  1.87, -1.00),
-            "RearLeft":   (-1.00, -2.23, -1.00),
-            "FrontRight": (1.00,  1.87, -1.00),
-            "RearRight":  (1.00, -2.23, -1.00),
-        },
-        "CarSmall02": {
-            "FrontLeft":  (-1.00,  1.87, -1.00),
-            "RearLeft":   (-1.00, -2.23, -1.00),
-            "FrontRight": (1.00,  1.87, -1.00),
-            "RearRight":  (1.00, -2.23, -1.00),
-        },
-        "CarSmall": {
-            "FrontLeft":  (-0.9,  1.61, -0.75),
-            "RearLeft":   (-0.9, -1.82, -0.75),
-            "FrontRight": (0.9,  1.61, -0.75),
-            "RearRight":  (0.9, -1.82, -0.75),
-        },
-        "SmallCar": {
-            "FrontLeft":  (-0.9,  1.61, -0.75),
-            "RearLeft":   (-0.9, -1.82, -0.75),
-            "FrontRight": (0.9,  1.61, -0.75),
-            "RearRight":  (0.9, -1.82, -0.75),
-        },
-        "SportsCar": {
-            "FrontLeft":  (-0.95,  1.9, -0.75),
-            "RearLeft":   (-0.95, -1.82, -0.75),
-            "FrontRight": (0.95,  1.9, -0.75),
-            "RearRight":  (0.95, -1.82, -0.75),
-        },
-        "SUV": {
-            "FrontLeft":  (-1.23,  2.22, -1.0),
-            "RearLeft":   (-1.23, -1.84, -1.0),
-            "FrontRight": (1.23,  2.22, -1.0),
-            "RearRight":  (1.23, -1.84, -1.0),
-        },
-        "CarLuxury": {
-            "FrontLeft":  (-1.25,  2.14, -0.93),
-            "RearLeft":   (-1.25, -2.08, -0.93),
-            "FrontRight": (1.25,  2.14, -0.93),
-            "RearRight":  (1.25, -2.08, -0.93),
-        },
-        "ModernCar": {
-            "FrontLeft":  (-1.1,  2.30, -0.93),
-            "RearLeft":   (-1.1, -1.96, -0.93),
-            "FrontRight": (1.1,  2.30, -0.93),
-            "RearRight":  (1.1, -1.96, -0.93),
-        },
-        "OffRoad": {
-            "FrontLeft":  (-1.04,  1.93, -0.93),
-            "RearLeft":   (-1.04, -1.7, -0.93),
-            "FrontRight": (1.04,  1.93, -0.93),
-            "RearRight":  (1.04, -1.7, -0.93),
-        },
-        "Trailer_Horsebox": {
-            "FrontLeft":  (-1.31,  -1.23, -1.65, 0.9),
-            "RearLeft":   (-1.31, -2.22, -1.65, 0.9),
-            "FrontRight": (1.31,  -1.23, -1.65, 0.9),
-            "RearRight":  (1.31, -2.23, -1.65, 0.9),
-        },
-        "Trailer_Livestock": {
-            "FrontLeft":  (-1.17,  -0.67, -1.25, 0.9),
-            "RearLeft":   (-1.17, -1.66, -1.25, 0.9),
-            "FrontRight": (1.17,  -0.67, -1.25, 0.9),
-            "RearRight":  (1.17, -1.66, -1.25, 0.9),
-        },
-        "TrailerAdvert": {
-            "FrontLeft":  (-0.8,  0, -1.71, 0.9),
-            "RearLeft":   (-0.8, -1, -1.71, 0.9),
-            "FrontRight": (0.8,  0, -1.71, 0.9),
-            "RearRight":  (0.8, -1, -1.71, 0.9),
-        },
-        "Trailer": {
-            "Left":  (-0.8,  -0.78, -0.45, 0.9),
-            "Right": (0.8,  -0.78, -0.45, 0.9),
-        },
-        # Base.CarNormal
-        "default": {
-            "FrontLeft":  (-1.04,  2.67, -0.93),
-            "RearLeft":   (-1.04, -1.96, -0.93),
-            "FrontRight": (1.04,  2.67, -0.93),
-            "RearRight":  (1.04, -1.96, -0.93),
-        }
-    }
+def attach_wheels(id_type, wheel_origin):
 
     # Skip burnt variants
     if "burnt" in id_type.lower():
         print(f"Skipping wheels for burnt variant: {id_type}")
         return
-
-    # Get origin group
-    origin_group = WHEEL_ORIGINS["default"]
-    for prefix, origins in WHEEL_ORIGINS.items():
-        if prefix != "default" and id_type.startswith(prefix):
-            origin_group = origins
-            break
 
     # Load wheel texture
     try:
@@ -203,7 +108,7 @@ def attach_wheels(id_type):
         wheel_image = None
 
     # Import wheels
-    for wheel_name, position in origin_group.items():
+    for wheel_name, position in wheel_origin.items():
         try:
             bpy.ops.import_scene.fbx(filepath=WHEEL_MESH_PATH)
 
@@ -283,7 +188,7 @@ def generate_vehicle_colour() -> tuple[float, float, float, float]:
     r, g, b = colorsys.hsv_to_rgb(hue, sat, val)
     return round(r, 4), round(g, 4), round(b, 4), 1.0
 
-def apply_texture(texture_path, id_type):
+def apply_texture(texture_path, vehicle_colour, id_type):
     image_path = os.path.join(TEXTURE_PATH, texture_path.replace("/", os.sep) + ".png")
     image = bpy.data.images.load(image_path)
 
@@ -317,7 +222,6 @@ def apply_texture(texture_path, id_type):
 
         # Create a base colour node (fallback for transparent texture)
         base_color = nodes.new("ShaderNodeRGB")
-        vehicle_colour = generate_vehicle_colour()
         print(f"[{id_type}] Generated colour: {vehicle_colour}")
         base_color.outputs[0].default_value = vehicle_colour
 
@@ -336,14 +240,26 @@ def apply_texture(texture_path, id_type):
         bpy.ops.object.shade_smooth()
 
 ## ------------------------- Render logic ------------------------- ##
-def render_vehicle(id_type, model_rel, texture_rel):
+def render_vehicle(vehicle_id, vehicle_data):
+    id_type = vehicle_id.split(".", 1)[1]
+
+    mesh_rel = vehicle_data.get("mesh", "")
+    mesh_rel = mesh_rel.split("|", 1)[0]
+    offset_loc = vehicle_data.get("location", [0, 0, 0])
+    offset_rot = vehicle_data.get("rotation", [0, 0, 0])
+    texture_rel = vehicle_data.get("texture")
+    camera = vehicle_data.get("camera", {})
+    camera_index = camera.get("index", 0)
+    camera_lens = camera.get("lens", 50)
+    wheel_origins = vehicle_data.get("wheel")
+
     print(f"Rendering: {id_type}")
     clear_scene()
 
     try:
-        import_model(model_rel)
-        apply_texture(texture_rel, id_type)
-        attach_wheels(id_type)
+        import_model(mesh_rel, offset_loc, offset_rot)
+        apply_texture(texture_rel, generate_vehicle_colour(), id_type)
+        attach_wheels(id_type, wheel_origins)
     except Exception as e:
         print(f"Failed to import or apply texture: {id_type}\n{e}")
         return
@@ -352,7 +268,10 @@ def render_vehicle(id_type, model_rel, texture_rel):
 
     # Add sun
     if not any(obj.type == 'LIGHT' for obj in scene.objects):
-        bpy.ops.object.light_add(type='SUN', location=(5, -5, 5))
+        bpy.ops.object.light_add(type='SUN', location=(5, 0, 5))
+        sun = bpy.context.object
+        sun.data.energy = 2.0
+        sun.rotation_euler[1] = math.radians(10)
 
     # Render settings
     scene_render = scene.render
@@ -372,7 +291,7 @@ def render_vehicle(id_type, model_rel, texture_rel):
 
     for i in range(count):
         origin_z = 135
-        angle_deg = origin_z + i * 45
+        angle_deg = origin_z + (camera_index + i) * 45
         angle_rad = math.radians(angle_deg)
 
         # Position camera
@@ -383,7 +302,7 @@ def render_vehicle(id_type, model_rel, texture_rel):
         bpy.ops.object.camera_add(location=(x, y, z))
         cam = bpy.context.object
         scene.camera = cam
-        cam.data.lens = 40
+        cam.data.lens = camera_lens #default: 40
 
         # Aim camera at origin
         cam.rotation_euler = (pitch_rad, 0, angle_rad - math.radians(-90))
@@ -406,20 +325,16 @@ def process_vehicles(vehicles_list=None):
     with open(VEHICLE_DATA_PATH, 'r', encoding='utf-8') as f:
         all_vehicles = json.load(f)
 
-    for vehicle_id, entry in all_vehicles.items():
-        id_type = vehicle_id.split(".", 1)[1]
-        mesh = entry.get("mesh", "")
-        mesh = mesh.split("|", 1)[0]
-        texture = entry.get("texture")
-
-        if not mesh or not texture:
-            print(f"Missing mesh or texture for {vehicle_id}, skipping.")
-            continue
+    for vehicle_id, vehicle_data in all_vehicles.items():
 
         if vehicles_list and vehicle_id not in vehicles_list:
             continue
 
-        render_vehicle(id_type, mesh, texture)
+        if not vehicle_data.get("mesh") or not vehicle_data.get("texture"):
+            print(f"Missing mesh or texture for {vehicle_id}, skipping.")
+            continue
+
+        render_vehicle(vehicle_id, vehicle_data)
 
 ## ------------------------- Initialise ------------------------- ##
 cli_parsing()
