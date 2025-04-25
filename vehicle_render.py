@@ -16,21 +16,21 @@ except:
 
 ## ------------------------- Config (default values) ------------------------- ##
 MEDIA_PATH = "C:/Program Files (x86)/Steam/steamapps/common/ProjectZomboid/media"
-VEHICLE_DATA_PATH = os.path.join(script_dir, "vehicle_data.json") # Path of the JSON file to read vehicle mesh and texture paths
+MODEL_DATA_PATH = os.path.join(script_dir, "vehicle_data.json") # Path of the JSON file to read vehicle mesh and texture paths
 MESH_PATH = os.path.join(MEDIA_PATH, "models_X") # Base path of the FBX files
 WHEEL_MESH_PATH = os.path.join(MESH_PATH, "WorldItems", "Wheel.FBX") # Path of the wheel mesh
 TEXTURE_PATH = os.path.join(MEDIA_PATH, "textures") # Base path of the textures
 WHEEL_TEXTURE_PATH = os.path.join(TEXTURE_PATH, "Vehicles", "vehicle_wheel.png") # Path of the wheel texture
 OUTPUT_PATH = os.path.join(script_dir, "output")
 IS_SINGLE = True # True will only render 1 angle
-VEHICLES = [] # Assign a list of vehicles to render. Leave empty to render all vehicles.
+MODELS = [] # Assign a list of vehicles to render. Leave empty to render all vehicles.
 RENDER_ENGINE = "CYCLES" # BLENDER_EEVEE (fast) or CYCLES (slow)
 DIMENSION_X = 800 # Render dimension X
 DIMENSION_Y = 800 # Render dimension Y
 
 # ------------------------- CLI Argument Parsing ------------------------- #
 def cli_parsing():
-    global IS_SINGLE, RENDER_ENGINE, DIMENSION_X, DIMENSION_Y, VEHICLES
+    global IS_SINGLE, RENDER_ENGINE, DIMENSION_X, DIMENSION_Y, MODELS
 
     args = sys.argv
     if "--" in args:
@@ -55,7 +55,7 @@ def cli_parsing():
             DIMENSION_Y = int(arg.split("=", 1)[1])
         elif arg.startswith("vehicles="):
             vehicles = arg.split("=", 1)[1]
-            VEHICLES.extend(v.strip() for v in vehicles.split(",") if v.strip())
+            MODELS.extend(v.strip() for v in vehicles.split(",") if v.strip())
 
 ## ------------------------- Scene cleanup ------------------------- ##
 def clear_scene():
@@ -322,7 +322,7 @@ def render_vehicle(vehicle_id, vehicle_data):
 
 ## ------------------------- Process vehicles ------------------------- ##
 def process_vehicles(vehicles_list=None):
-    with open(VEHICLE_DATA_PATH, 'r', encoding='utf-8') as f:
+    with open(MODEL_DATA_PATH, 'r', encoding='utf-8') as f:
         all_vehicles = json.load(f)
 
     for vehicle_id, vehicle_data in all_vehicles.items():
@@ -338,4 +338,4 @@ def process_vehicles(vehicles_list=None):
 
 ## ------------------------- Initialise ------------------------- ##
 cli_parsing()
-process_vehicles(vehicles_list=VEHICLES)
+process_vehicles(vehicles_list=MODELS)
